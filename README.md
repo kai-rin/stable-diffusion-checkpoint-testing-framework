@@ -29,17 +29,19 @@ Stable Diffusion系の生成モデルはカンブリア紀まっただ中。
 
 ## 各モデルの検証Gridへのリンク
 
-as of 2023-05-03 23:03 JST
+as of 2023-05-04 02:24 JST
 
-- [a7b3_v10](./a7b3_v10/index.html) | [civitai](https://civitai.com/models/43804/a7b3)
-- [anything-v4.5-pruned-fp16](./anything-v4.5-pruned-fp16/index.html) | [huggingface](https://huggingface.co/andite/anything-v4.0)
-- [anythingV5PrtRE](./anythingV5PrtRE/index.html) | [civitai](https://civitai.com/models/9409/or-anything-v5)
-- [breakdomain_M2000_preview](./breakdomain_M2000_preview/index.html) | [一般公開前（2023-05-03時点）](https://www.fanbox.cc/@br-d/posts/5858016)
-- [breakdomainrealistic_M1871](./breakdomainrealistic_M1871/index.html) | [civitai](https://civitai.com/models/54917/breakdomainrealistic)
-- [breakdro_I1464](./breakdro_I1464/index.html) | [civitai](https://civitai.com/models/28828/breakdro)
-- [cityedgeToonmix_v312](./cityedgeToonmix_v312/index.html) | [civitai](https://civitai.com/models/45616/cityedgetoonmix)
-- [coremixpure_v10](./coremixpure_v10/index.html) | [civitai](https://civitai.com/models/41206/coremixpure)
-- [Counterfeit-V3.0_fp16](./Counterfeit-V3.0_fp16/index.html) | [huggingface](https://huggingface.co/gsdf/Counterfeit-V3.0)
-- [ghostmix_v11Bakedvae](./ghostmix_v11Bakedvae/index.html) | [civitai](https://civitai.com/models/36520/ghostmix)
-- [meinamix_meinaV9](./meinamix_meinaV9/index.html) | [civitai](https://civitai.com/models/7240/meinamix)
-- [neverendingDreamNED_bakedVae](./neverendingDreamNED_bakedVae/index.html) | [civitai](https://civitai.com/models/10028/neverending-dream-ned)
+|  検証Gridへのリンク  |  モデル配布元へのリンク  |
+| ---- | ---- |
+|  [a7b3_v10](./a7b3_v10/index.html)   |  [civitai](https://civitai.com/models/43804/a7b3)  |
+|  [anything-v4.5-pruned-fp16](./anything-v4.5-pruned-fp16/index.html)   |  [huggingface](https://huggingface.co/andite/anything-v4.0)  |
+|  [anythingV5PrtRE](./anythingV5PrtRE/index.html)   |  [civitai](https://civitai.com/models/9409/or-anything-v5)  |
+|  [breakdomain_M2000_preview](./breakdomain_M2000_preview/index.html)   |  [一般公開前（2023-05-03時点）](https://www.fanbox.cc/@br-d/posts/5858016)  |
+|  [breakdomainrealistic_M1871](./breakdomainrealistic_M1871/index.html)   |  [civitai](https://civitai.com/models/54917/breakdomainrealistic)  |
+|  [breakdro_I1464](./breakdro_I1464/index.html)   |  [civitai](https://civitai.com/models/28828/breakdro)  |
+|  [cityedgeToonmix_v312](./cityedgeToonmix_v312/index.html)   |  [civitai](https://civitai.com/models/45616/cityedgetoonmix)  |
+|  [coremixpure_v10](./coremixpure_v10/index.html)   |  [civitai](https://civitai.com/models/41206/coremixpure)  |
+|  [Counterfeit-V3.0_fp16](./Counterfeit-V3.0_fp16/index.html)   |  [huggingface](https://huggingface.co/gsdf/Counterfeit-V3.0)  |
+|  [ghostmix_v11Bakedvae](./ghostmix_v11Bakedvae/index.html)   |  [civitai](https://civitai.com/models/36520/ghostmix)  |
+|  [meinamix_meinaV9](./meinamix_meinaV9/index.html)   |  [civitai](https://civitai.com/models/7240/meinamix)  |
+|  [neverendingDreamNED_bakedVae](./neverendingDreamNED_bakedVae/index.html)   |  [civitai](https://civitai.com/models/10028/neverending-dream-ned)  |

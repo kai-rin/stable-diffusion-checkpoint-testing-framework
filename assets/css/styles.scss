@@ -3,21 +3,21 @@
 
 @import "{{ site.theme }}";
 
+// 以下にダークカラーテーマのスタイルを追加
 body {
-    background-color: #333;
-    color: #eee;
-  }
-  
-  a {
-    color: #80d6ff;
-  }
-  
-  a:hover {
-    color: #b3fdff;
-  }
-  
-  code {
-    background-color: #444;
-    color: #ddd;
-  }
-  
+  background-color: #333;
+  color: #eee;
+}
+
+a {
+  color: #80d6ff;
+}
+
+a:hover {
+  color: #b3fdff;
+}
+
+code {
+  background-color: #444;
+  color: #ddd;
+}
