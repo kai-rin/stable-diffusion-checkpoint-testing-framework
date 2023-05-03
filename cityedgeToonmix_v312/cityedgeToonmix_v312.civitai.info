@@ -1,0 +1,389 @@
+{
+    "id": 58840,
+    "modelId": 45616,
+    "name": "v3.12",
+    "createdAt": "2023-04-30T11:16:21.125Z",
+    "updatedAt": "2023-04-30T11:54:17.847Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>v3.12 : In order to capable of creating more variations, I changed base model from chilled-regeneric to Muse.  Less toon-ized compared to v1.20.</p><p>\u51fa\u3066\u304f\u308b\u7d75\u306e\u30d0\u30ea\u30a8\u30fc\u30b7\u30e7\u30f3\u3092\u5e83\u3052\u308b\u305f\u3081\u3001\u30d9\u30fc\u30b9\u30e2\u30c7\u30eb\u3092chilled\u7cfb\u304b\u3089Muse\u306b\u79fb\u884c\u3057\u307e\u3057\u305f\u3002\u307e\u305f\u3001\u5b9f\u5199\u30e2\u30c7\u30eb\u304b\u3089\u30a2\u30cb\u30e1\u7cfb\u30e2\u30c7\u30eb\u3078\u306e\u79fb\u884c\u30a6\u30a7\u30a4\u30c8\u3092\u4e0b\u3052\u3001v1.20\u3088\u308a\u3082\u3084\u3084\u5b9f\u5199\u3088\u308a\u3068\u3057\u3066\u3044\u307e\u3059\u3002</p>",
+    "stats": {
+        "downloadCount": 701,
+        "ratingCount": 3,
+        "rating": 5
+    },
+    "model": {
+        "name": "CityEdge_ToonMix",
+        "type": "Checkpoint",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "cityedgeToonmix_v312.safetensors",
+            "id": 41801,
+            "sizeKB": 4144627.122070312,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "pruned",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-04-30T11:27:15.394Z",
+            "hashes": {
+                "AutoV1": "77788CC8",
+                "AutoV2": "63A0911676",
+                "SHA256": "63A0911676033C2EE7B423EEE7D29E17B22FBC4B719A97D32238FB203E776EFD",
+                "CRC32": "9A2236C0",
+                "BLAKE3": "37FA9590436720E039899983C594249BD6A5ACFA66146783C7ECD16EA562A154"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/58840"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afe689f0-5df7-44b6-e933-20cf5034a300/width=450/641522.jpeg",
+            "nsfw": "X",
+            "width": 1024,
+            "height": 1280,
+            "hash": "UMKANP?bEeXS9^t7-UjF5S-:%2xt~WR.WBM|",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x640",
+                "seed": 3271826663,
+                "Model": "0_org_CityEdge_ToonMix_3_12",
+                "steps": 25,
+                "hashes": {
+                    "model": "63a0911676"
+                },
+                "prompt": "2girls hugging together, naked, small breasts, outdoor, bathing with steam, hot spring, onsen, sweat,  smiling, look at viewer, depth of field, bokeh,  detailed background, detailed lighting, diffused natural sunlight, diffused natural skin glow, symmetry eyes,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "63a0911676",
+                        "name": "0_org_CityEdge_ToonMix_3_12",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "63a0911676",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "EasyNegative, black hair",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5ef6f5a-0df7-47f6-c434-76002f74e900/width=450/641525.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "USGbSO~qb_?b?H%Mg3R*Xn-p-pWr%Ms.n#M{",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 3248763572,
+                "Model": "0_org_CityEdge_ToonMix_3_12",
+                "steps": 25,
+                "hashes": {
+                    "model": "63a0911676"
+                },
+                "prompt": "1girl, matured female, vest, bow, photo, realistic, best quality, hires, detailed face, office, buildings from window, detailed background, diffused sunlight, depth of field, bokeh",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "63a0911676",
+                        "name": "0_org_CityEdge_ToonMix_3_12",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "63a0911676",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "EasyNegative",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f75e4fda-e560-4115-57e8-9093e6e2cc00/width=450/641530.jpeg",
+            "nsfw": "Soft",
+            "width": 1536,
+            "height": 1024,
+            "hash": "UGF}_]9a9Fkr~p9Z00-otm-pE1%2I;%LRPIV",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "768x512",
+                "seed": 1113042953,
+                "Model": "0_org_CityEdge_ToonMix_3_12",
+                "steps": 20,
+                "hashes": {
+                    "model": "63a0911676"
+                },
+                "prompt": "1girl, cute, sitting on bed, bedroom, detailed background, indoor, hires, (photorealistic:1.4),  offshoulder, (in the dark, deep shadow,low key, cold light:1.1), diffused natural skin glow,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "63a0911676",
+                        "name": "0_org_CityEdge_ToonMix_3_12",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "63a0911676",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "EasyNegative, worst quality, low quality, logo, text, watermask, username",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f474cbc4-de4f-470a-8cdf-58fd97c47000/width=450/641532.jpeg",
+            "nsfw": "None",
+            "width": 1536,
+            "height": 1024,
+            "hash": "UUKm|b-:s.~W~Xs:M{s:.8=|$*bH.8R%D%S3",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "768x512",
+                "seed": 1155435895,
+                "Model": "0_org_CityEdge_ToonMix_3_12",
+                "steps": 25,
+                "hashes": {
+                    "model": "63a0911676"
+                },
+                "prompt": "academic gown, academic robe, mortarboard, square cap, university campus, buildings, cherry blossoms, smiling, 2girls, detailed uniform, look at viewer, (SIGMA 85mm f1.4), depth of field, bokeh,  detailed photorealistic background, diffused natural sunlight, diffused natural skin glow",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "63a0911676",
+                        "name": "0_org_CityEdge_ToonMix_3_12",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "63a0911676",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "EasyNegative, worst quality, low quality, logo, text, watermask, username",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16a9320b-b08b-48f9-65be-9366d0b68900/width=450/641527.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U8M%D.00394-?H00L2O=~U8_00yXx{~qV=tR",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 2158939891,
+                "Model": "0_org_CityEdge_ToonMix_3_12",
+                "steps": 25,
+                "hashes": {
+                    "model": "63a0911676"
+                },
+                "prompt": "1girl, cute, 16 years old, smiling, look at viewer, sailor uniform, seifuku, pink hair, best quality, hires, detailed face, classroom, detailed background, diffused lighting, depth of field, bokeh",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "63a0911676",
+                        "name": "0_org_CityEdge_ToonMix_3_12",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "63a0911676",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "EasyNegative,",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aad9c492-030c-4b81-eeb0-a3f34acf2000/width=450/641523.jpeg",
+            "nsfw": "None",
+            "width": 512,
+            "height": 768,
+            "hash": "UPH_c6~q%#yD?b-=%Nj[tlIoxZ-:%gW=oKt7",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 3248763596,
+                "Model": "0_org_CityEdge_ToonMix_3_12",
+                "steps": 25,
+                "hashes": {
+                    "model": "63a0911676"
+                },
+                "prompt": "1girl, matured female, vest, bow, photo, realistic, best quality, hires, detailed face, office, buildings from window, detailed background, diffused sunlight, depth of field, bokeh",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "63a0911676",
+                        "name": "0_org_CityEdge_ToonMix_3_12",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "63a0911676",
+                "negativePrompt": "EasyNegative"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2dfa6dd6-4211-4a8c-0c50-87ea21eb0000/width=450/641528.jpeg",
+            "nsfw": "None",
+            "width": 1536,
+            "height": 1024,
+            "hash": "UhI5iE%hIUIoyGtRxuxvtljEV@t8WZRjaxof",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "768x512",
+                "seed": 496091906,
+                "Model": "0_org_CityEdge_ToonMix_3_12",
+                "steps": 25,
+                "hashes": {
+                    "model": "63a0911676"
+                },
+                "prompt": "baseball cosplay,  baseball stadium, baseball uniform, smiling, 1girl, cowboy shot, detailed uniform, look at viewer, (SIGMA 85mm f1.4), depth of field, bokeh,  detailed realistic background, diffused natural sunlight, diffused natural skin glow, summer",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "63a0911676",
+                        "name": "0_org_CityEdge_ToonMix_3_12",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "63a0911676",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "EasyNegative, worst quality, low quality, logo, text, watermask, username,",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f9f7db91-fc31-4680-d375-81ee8e529600/width=450/641531.jpeg",
+            "nsfw": "None",
+            "width": 1536,
+            "height": 1024,
+            "hash": "UOI}R{Vr00yE?us94n%g~VxuD*%1sS-oxuNG",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "768x512",
+                "seed": 3847093334,
+                "Model": "0_org_CityEdge_ToonMix_3_12",
+                "steps": 25,
+                "hashes": {
+                    "model": "63a0911676"
+                },
+                "prompt": "1girl, cute,  sleeping, eyes closed,  (freckles:0.2), lying on bed, head on pillow, bedroom, detailed background, indoor, hires, (in the dark, deep shadow,low key:1.1), diffused natural skin glow,  diffused dark light, wide shot",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "63a0911676",
+                        "name": "0_org_CityEdge_ToonMix_3_12",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "63a0911676",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "EasyNegative, worst quality, low quality, logo, text, watermask, username, (makeup, lipstick, eyeblows, false eyelashes:1.4)",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63d4e3c2-62e0-4a99-dc39-1cedbf5b7200/width=450/641533.jpeg",
+            "nsfw": "X",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UHI}bS?bx@_358Io014:~Wxu%NNG?bX8xv%M",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 2694915403,
+                "Model": "0_org_CityEdge_ToonMix_3_12",
+                "steps": 25,
+                "hashes": {
+                    "model": "63a0911676"
+                },
+                "prompt": "1girl,  undress coat,  exposed pussy,  tokyo street, public indecency, look at viewer, embarrased, (SIGMA 85mm f1.4),  nsfw,  (depth of field:0.6), detailed background, diffused natural sunlight, diffused natural skin glow, daytime, winter, pubic hair:0.4",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "63a0911676",
+                        "name": "0_org_CityEdge_ToonMix_3_12",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "63a0911676",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "EasyNegative",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fcf0c318-9c86-4ba6-5776-ee8fcd7a9200/width=450/641534.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "ULH_iKD%.S%N_Nt7WB%ftQIVNJM|D%%Mr?s:",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 624671668,
+                "Model": "0_org_CityEdge_ToonMix_3_12",
+                "steps": 25,
+                "hashes": {
+                    "model": "63a0911676",
+                    "lora:skirtliftTheAstonishing_skirtliftv1": "b72e88ca39"
+                },
+                "prompt": "1girl, cute, best quality, masterpiece, looking at viewer, smiling, airport, cabin attendant, cabin attendant uniform, suitcase, pubic hair:0.4, skirtlift <lora:skirtliftTheAstonishing_skirtliftv1:1>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "name": "skirtliftTheAstonishing_skirtliftv1",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "63a0911676",
+                        "name": "0_org_CityEdge_ToonMix_3_12",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "63a0911676",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "EasyNegative, worst quality, low quality, logo, text, watermark, username, (outdoor:1.6)",
+                "Denoising strength": "0.4"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/58840"
+}

@@ -1,0 +1,383 @@
+{
+    "id": 11925,
+    "modelId": 10028,
+    "name": "baked vae",
+    "createdAt": "2023-02-18T01:52:36.456Z",
+    "updatedAt": "2023-03-31T19:49:21.698Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "NeverEnding Dream (NED)",
+        "type": "Checkpoint",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "neverendingDreamNED_bakedVae.safetensors",
+            "id": 10981,
+            "sizeKB": 2082642.203125,
+            "type": "Pruned Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "pruned",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-02-18T02:03:25.550Z",
+            "hashes": {
+                "AutoV1": "B8DE0613",
+                "AutoV2": "64B14B6CA5",
+                "SHA256": "64B14B6CA515B8E590D313A372FBE13BCDE7AF31AD4448B4D7BD1B8CFEB9AA07",
+                "CRC32": "EC354FC7",
+                "BLAKE3": "BCDD08F196DA7B5B2C12922D39D49DBCECDF21EC9E8D2DB4ACDE25DFF7CD8C42"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/11925"
+        },
+        {
+            "name": "neverendingDreamNED_bakedVae.safetensors",
+            "id": 10980,
+            "sizeKB": 4165133.515625,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "full",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-02-18T01:59:44.036Z",
+            "hashes": {
+                "AutoV1": "9CE0DF7A",
+                "AutoV2": "D8722B4A4D",
+                "SHA256": "D8722B4A4D11B79CA25E608A02F69B7677AC760970A0BB4583D3ECD34F0757A7",
+                "CRC32": "9B7A59D5",
+                "BLAKE3": "D9313F05EB310ECEC8AD0EADFD094C8DF907F19F01545BAB7C85BFF2AF8BC62F"
+            },
+            "primary": false,
+            "downloadUrl": "https://civitai.com/api/download/models/11925?type=Model&format=SafeTensor"
+        },
+        {
+            "name": "neverendingDreamNED_bakedVae.ckpt",
+            "id": 18720,
+            "sizeKB": 4165358.794921875,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "full",
+                "format": "PickleTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-13T09:20:00.028Z",
+            "hashes": {
+                "AutoV1": "A86EEA69",
+                "AutoV2": "F18D4E1F77",
+                "SHA256": "F18D4E1F775C1D7B075FCE46F12D255036D1DA73755060667D0D818E60009E79",
+                "CRC32": "94BBA9E4",
+                "BLAKE3": "6D178B454C3BC4CA56A9414E88597BCBF49C7F93A1A7728AA20946E4F81401D9"
+            },
+            "primary": false,
+            "downloadUrl": "https://civitai.com/api/download/models/11925?type=Model&format=PickleTensor"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b58bd267-9df8-45dc-7543-4e62101cad00/width=450/114053.jpeg",
+            "nsfw": true,
+            "width": 920,
+            "height": 1376,
+            "hash": "UMHw[a~W0#x]T0xu?a%fxa%2RjE1NaNGIUV@",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 2281759347,
+                "steps": 20,
+                "prompt": "(8k, RAW photo, best quality, masterpiece:1.2), (realistic:1.3), (photorealistic:1.3), ultra-detailed, (high detailed skin:1.2), 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3, best quality, beautiful lighting,\n1girl, dragon horns, long hair, twintails, (red hair), messy hair, yellow eyes, tight dragon scale armor, medium breasts, pointy ears, black gloves, smug, standing, royal room, medium breasts,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 9,
+                "Clip skip": "2",
+                "resources": [],
+                "Model hash": "3fa172acd6",
+                "Hires steps": "15",
+                "Hires upscale": "1.8",
+                "Hires upscaler": "Latent (nearest)",
+                "negativePrompt": "(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.4), signature, text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Denoising strength": "0.55"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/126aa6e8-f03c-4241-88b6-a31df5a14200/width=450/121861.jpeg",
+            "nsfw": false,
+            "width": 976,
+            "height": 1304,
+            "hash": "UAHn$;4.?]r;t94o0LIU00-;WF?HV=E0xu%M",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "976x1304",
+                "seed": 4074135079,
+                "steps": 30,
+                "prompt": "masterpiece, (photorealistic:1.4), best quality, beautiful lighting, 1girl, solo, long hair, straight hair, breasts, lips, blunt bangs, realistic, small breasts, (extremely detailed CG unity 8k wallpaper), intricate, high detail, sharp focus, dramatic, beautiful girl , RAW photo, 8k uhd, film grain, caustics, subsurface scattering, reflections, (cowboy shot), (asian:1.4), (skindentation:1.2),\n(school girl uniform),\nsunset, light particles, sunbeam, indoors, (school classroom, angel wings, mechanical halo, feathers falling from sky:1.4),",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 10,
+                "Clip skip": "2",
+                "Mask blur": "4",
+                "resources": [],
+                "Model hash": "d8722b4a4d",
+                "negativePrompt": "watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, (signature), watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy",
+                "Denoising strength": "0.6"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/84616767-6ddf-40ae-a3ba-9b2fec1f9b00/width=450/114072.jpeg",
+            "nsfw": false,
+            "width": 920,
+            "height": 1376,
+            "hash": "UcIq_t^*?voz_NxZtmbH9^RjIARjX9xti_ay",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 2580167177,
+                "steps": 30,
+                "prompt": "(8k, RAW photo, best quality, masterpiece:1.2), (realistic, photo-realistic:1.37), ultra-detailed, (high detailed skin:1.2), 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3, professional lighting, photon mapping, radiosity, physically-based rendering\n\nphoto of 45 y.o man, caucasian, short beard, wizard, white wizard shirt with golden trim, white robes moving in the wind, long white hair, fully clothed, perfect face, handsome, concept art, detailed face and body, award-winning photography, detailed face, backlight, ultrarealistic, ray tracing, intense gaze, looking at viewer, cinematic lighting, embers, fantasy, action pose, water splash, mist\n\n, RAW photo, 8k uhd, film grain",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 10,
+                "Clip skip": "2",
+                "resources": [],
+                "Model hash": "3fa172acd6",
+                "Hires steps": "30",
+                "Hires upscale": "1.8",
+                "Hires upscaler": "Lanczos",
+                "negativePrompt": "(painting by bad-artist-anime:0.9), (painting by bad-artist:0.9), watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, (signature), watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy",
+                "Denoising strength": "0.2"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0f34ee2-a4f1-40ad-bc35-81e8261a0800/width=450/114071.jpeg",
+            "nsfw": false,
+            "width": 896,
+            "height": 1344,
+            "hash": "UDGH;_-;00%3~X%29Y4:RkEL9s%1-:oeD%kC",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "896x1344",
+                "seed": 2281759351,
+                "steps": 30,
+                "prompt": "masterpiece, (photorealistic:1.4), best quality, beautiful lighting,\n\nnanakusa nazuna, 1girl, bangs, black background, black jacket, black shirt, black shorts, blue eyes, blunt bangs, breasts, cleavage cutout, clothing cutout, crop top, eyeshadow, fangs, gradient hair, grey hair, hair rings, jacket, light purple hair, looking at viewer, makeup, multicolored hair, navel, open mouth, red eyeshadow, shirt, shorts, sleeveless, sleeveless turtleneck, sleeveless turtleneck crop top, small breasts, solo, stomach, turtleneck, turtleneck crop top, two-tone hair, vampire <lora:nanakusa_nazuna_offset:1>\n\nRAW photo, 8k uhd, film grain",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 9,
+                "Clip skip": "2",
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "name": "nanakusa_nazuna_offset",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "3fa172acd6",
+                "negativePrompt": "(painting by bad-artist-anime:0.9), (painting by bad-artist:0.9), watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy",
+                "Denoising strength": "0.45"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77ff816f-8965-4a46-e4b3-c0dc05dd8400/width=450/135510.jpeg",
+            "nsfw": false,
+            "width": 896,
+            "height": 1344,
+            "hash": "UBF=zK0000~W00IUMw-;XU-;NGIT01s*-q^+",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "896x1344",
+                "seed": 1380816974,
+                "Model": "NeverEndingDream_ft_mse",
+                "steps": 30,
+                "prompt": "<lora:ganyu_ned2_offset:1> <lora:japaneseDollLikeness_v10:0.45> masterpiece, (photorealistic:1.5), best quality, beautiful lighting, real life,\n\nganyu \\(genshin impact\\), 1girl, ahoge, architecture, bangs, bare shoulders, bell, black gloves, black pantyhose, (blue hair), blush, breasts, chinese knot, detached sleeves, east asian architecture, flower knot, gloves, horns, long hair, looking at viewer, medium breasts, neck bell, night, outdoors, pantyhose, purple eyes, sidelocks, solo, tassel,  white sleeves, (ulzzang-6500:0.5)\n\n, intricate, high detail, sharp focus, dramatic, beautiful girl , (RAW photo, 8k uhd, film grain), caustics, subsurface scattering, reflections",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 9,
+                "Clip skip": "2",
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "name": "ganyu_ned2_offset",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "japaneseDollLikeness_v10",
+                        "type": "lora",
+                        "weight": 0.45
+                    },
+                    {
+                        "hash": "d8722b4a4d",
+                        "name": "NeverEndingDream_ft_mse",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8722b4a4d",
+                "negativePrompt": "(painting by bad-artist-anime:0.9), (painting by bad-artist:0.9), watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/24aadf96-f63e-4e1a-cba4-e85ade137800/width=450/114070.jpeg",
+            "nsfw": false,
+            "width": 920,
+            "height": 1376,
+            "hash": "UEHxNk%300~XtnxtM^0K^,R.4.?HbcRj9FbH",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 2281759351,
+                "steps": 30,
+                "prompt": "masterpiece, anime style, ((anime screencap)), best quality, beautiful lighting, professional lighting,\n\nnanakusa nazuna, 1girl, bangs, black background, black jacket, black shirt, black shorts, blue eyes, blunt bangs, breasts, cleavage cutout, clothing cutout, crop top, eyeshadow, fangs, gradient hair, grey hair, hair rings, jacket, light purple hair, looking at viewer, makeup, multicolored hair, navel, open mouth, red eyeshadow, shirt, shorts, sleeveless, sleeveless turtleneck, sleeveless turtleneck crop top, small breasts, solo, stomach, turtleneck, turtleneck crop top, two-tone hair, vampire <lora:nanakusa_nazuna_offset:1>",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 9,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "name": "nanakusa_nazuna_offset",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "3fa172acd6",
+                "Hires steps": "10",
+                "Hires upscale": "1.8",
+                "Hires upscaler": "4x-AnimeSharp",
+                "negativePrompt": "(painting by bad-artist-anime:0.9), (painting by bad-artist:0.9), watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07937eb9-b72a-4007-cb25-6288d6b1c700/width=450/114068.jpeg",
+            "nsfw": false,
+            "width": 864,
+            "height": 1304,
+            "hash": "UbIh21~VE#EL4TRPIoE1%MR*ozxut7t7tRof",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 2281759351,
+                "steps": 30,
+                "prompt": "masterpiece, (photorealistic:1.4), best quality, beautiful lighting,\n\n, makima \\(chainsaw man\\), (red hair)+(long braided hair)+(bangs), yellow eyes, golden eyes, (ringed eyes), (white shirt), (necktie), \n\nRAW photo, 8k uhd, film grain <lora:makima_offset:1>",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 9,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "name": "makima_offset",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "3fa172acd6",
+                "Hires steps": "20",
+                "Hires upscale": "1.7",
+                "Hires upscaler": "Lanczos",
+                "negativePrompt": "(painting by bad-artist-anime:0.9), (painting by bad-artist:0.9), watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/282a995e-f4b7-44f2-1e39-2b3d2b341b00/width=450/114063.jpeg",
+            "nsfw": false,
+            "width": 920,
+            "height": 1376,
+            "hash": "UMIE2?03~9RQtRoeNHayENxYM{X8OFoeM{oe",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 105259063,
+                "steps": 30,
+                "prompt": "masterpiece, (photorealistic:1.4), best quality, beautiful lighting,\n\noutdoors, upper body, 1girl, armor, detailed, intricate\n\n, RAW photo, 8k uhd, film grain",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 10,
+                "Clip skip": "2",
+                "resources": [],
+                "Model hash": "3fa172acd6",
+                "Hires steps": "20",
+                "Hires upscale": "1.8",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "(painting by bad-artist-anime:0.9), (painting by bad-artist:0.9), watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, (signature), watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca0dab5d-e16f-42b9-259e-cdaad14a4700/width=450/128725.jpeg",
+            "nsfw": false,
+            "width": 920,
+            "height": 1376,
+            "hash": "ULJ@???I_KD$Im00T09bNE9ERj%2%%-pITaI",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "920x1376",
+                "seed": 1380816971,
+                "steps": 25,
+                "prompt": "masterpiece, (photorealistic:1.4), best quality, beautiful lighting, outdoors,\nmikasa ackerman, shingeki no kyojin, 1girl, bangs, belt, belt buckle, black eyes, black hair, brown belt, brown jacket, buckle, dress shirt, hair between eyes, jacket, long sleeves, medium hair, open clothes, open jacket, paradis military uniform, red scarf, scarf, shirt, solo, standing, straight hair, suspenders, white shirt, wing collar\n, intricate details, natural light, RAW photo, 8k uhd, film grain   <lora:mikasa_ackerman_offset:1.2>  <lora:japaneseDollLikeness_v10:0.5>",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 9,
+                "Clip skip": "2",
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "name": "mikasa_ackerman_offset",
+                        "type": "lora",
+                        "weight": 1.2
+                    },
+                    {
+                        "name": "japaneseDollLikeness_v10",
+                        "type": "lora",
+                        "weight": 0.5
+                    }
+                ],
+                "Model hash": "d8722b4a4d",
+                "negativePrompt": "(painting by bad-artist-anime:0.9), (painting by bad-artist:0.9), watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy",
+                "Denoising strength": "0.32"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e1b4442-47ab-4204-b9f8-d6698969e500/width=450/114059.jpeg",
+            "nsfw": true,
+            "width": 1920,
+            "height": 2944,
+            "hash": "UGHUY0KR00^*0x~VOuJ;8_S5?anNMxD%V@tR",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "704x896",
+                "seed": 161252008,
+                "steps": 20,
+                "prompt": "(8k, RAW photo, best quality, masterpiece:1.2), (realistic, photo-realistic:1.37), ultra-detailed, (high detailed skin:1.2), 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3\n\ndark magician girl, masterpiece, best quality, 1girl, blonde hair, blue footwear, blue headwear, breasts, duel monster, hat, hexagram, large breasts, long hair, looking at viewer, nail polish, pentacle, pentagram, solo, staff, wand, wizard hat, yu-gi-oh! <lora:dark_magician_girl:0.6> <lora:dpep2768:0.25>",
+                "sampler": "Euler a",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "name": "dark_magician_girl",
+                        "type": "lora",
+                        "weight": 0.6
+                    },
+                    {
+                        "name": "dpep2768",
+                        "type": "lora",
+                        "weight": 0.25
+                    }
+                ],
+                "Model hash": "3fa172acd6",
+                "negativePrompt": "(painting by bad-artist-anime:0.9), (painting by bad-artist:0.9), watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy, deformed iris",
+                "Denoising strength": "0.2",
+                "SD upscale overlap": "64",
+                "SD upscale upscaler": "R-ESRGAN General 4xV3"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/11925"
+}

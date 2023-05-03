@@ -1,0 +1,376 @@
+{
+    "id": 46137,
+    "modelId": 7240,
+    "name": "Meina V9",
+    "createdAt": "2023-04-15T06:00:55.870Z",
+    "updatedAt": "2023-04-15T07:36:16.858Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>If you have any questions related to the model or its samples, how to get started or just want to share your creations, feel free to join my discord: <a target=\"_blank\" rel=\"ugc\" href=\"http://discord.gg/meinaverse\">discord.gg/meinaverse</a> &lt;3<br /><br /><strong>Hires.fix is needed for prompts where the character is far away</strong> in order to make decent images, it drastically improve the quality of face and eyes!<br />---------------------------------------------<br /><strong>Recommendations:</strong><br /><strong>Sampler:</strong> Euler a: 40~60 steps.<br /><strong>Sampler:</strong> DPM++ SDE Karras: 30~60 steps.<br /><strong>CFG Scale:</strong> 7.<br /><strong>Resolutions:</strong> 512x768, 512x1024 for Portrait!<br /><strong>Resolutions: </strong>768x512, 1024x512, 1536x512 for Landscape!<br /><strong>Hires.fix:</strong> R-ESRGAN 4x+Anime6b, with 10 steps at 0.1 up to 0.3 denoising.<br /><strong>Clip Skip:</strong> 2.<br /><strong>Negatives:</strong> ' (worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic), '<br />---------------------------------------------</p>",
+    "model": {
+        "name": "MeinaMix",
+        "type": "Checkpoint",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "meinamix_meinaV9.safetensors",
+            "id": 34479,
+            "sizeKB": 3926252.400390625,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "pruned",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-04-15T06:28:13.966Z",
+            "hashes": {
+                "AutoV1": "2EC66AB0",
+                "AutoV2": "EAC6C08A19",
+                "SHA256": "EAC6C08A199C4953F80AE5B4EA5F9B2D88C7F3C6F2546E14A57851E3E4A1C5CB",
+                "CRC32": "9B43B52B",
+                "BLAKE3": "16BCE9E1198433C2A8261BC896FBCAF521FF5B9A24B210BFBD1E5256589102E9"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/46137"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69b1092e-d3b1-4843-8980-2798253ab000/width=450/500009.jpeg",
+            "nsfw": false,
+            "width": 2048,
+            "height": 4096,
+            "hash": "ULFFdKfP0JIU~q-p00M{W-j]V[xa55IU-;jY",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 1400040347,
+                "Model": "Meina V9 - baked VAE",
+                "steps": 40,
+                "hashes": {
+                    "model": "eac6c08a19"
+                },
+                "prompt": "upper body, 1girl, white hair, ponytail, purple eyes, (ninja), short sword, medium breats ,scarf, wallpaper, magic circle background, light particles, blue fire,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "eac6c08a19",
+                        "name": "Meina V9 - baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eac6c08a19",
+                "Hires steps": "10",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62c47248-fe4b-4986-850a-62cc3fef5500/width=450/500010.jpeg",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "U9J*excHHW010H01i~JW00^i|=o|0#K*Rj#6",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 2013790551,
+                "Model": "Meina V9 - baked VAE",
+                "steps": 40,
+                "hashes": {
+                    "model": "eac6c08a19"
+                },
+                "prompt": "realistic, 1girl, white hair, purple eyes, bikini, beach, light particles, light rays, wallpaper,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "eac6c08a19",
+                        "name": "Meina V9 - baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eac6c08a19",
+                "Hires steps": "10",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8160e74e-bd19-4729-5968-02b43b721c00/width=450/500007.jpeg",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UGIXEb~B00D*b^V?MwofR$^j~Bx]-T-:fiRk",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 3921898544,
+                "Model": "Meina V9 - baked VAE",
+                "steps": 40,
+                "hashes": {
+                    "model": "eac6c08a19"
+                },
+                "prompt": "1girl, white hair, purple eyes, portrait, realistic, towel, (onsen), sidelighting, wallpaper, nsfw,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "eac6c08a19",
+                        "name": "Meina V9 - baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eac6c08a19",
+                "Hires steps": "10",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4ebc7f4-9f8b-40dc-8ac8-f04961350a00/width=450/500011.jpeg",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "U8C6r$~C004.-=NH4nM{00X9^kIo00Rj~p%g",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 3938052785,
+                "Model": "Meina V9 - baked VAE",
+                "steps": 40,
+                "hashes": {
+                    "model": "eac6c08a19"
+                },
+                "prompt": "realistic, 1girl, blue hair, horns, multicolored eyes, glowing, blue eye, purple eye, bare shoulders, demon eyes, magic circle, light particles, light rays, wallpaper,",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "eac6c08a19",
+                        "name": "Meina V9 - baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eac6c08a19",
+                "Hires steps": "10",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa6276c5-79c3-4691-d1ff-118e52453800/width=450/500012.jpeg",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UYMGhu01cFWV%gWB%gjYJ.ayxYs:~WaeIVof",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 2682820799,
+                "Model": "Meina V9 - baked VAE",
+                "steps": 40,
+                "hashes": {
+                    "model": "eac6c08a19"
+                },
+                "prompt": "1girl, portrait, realistic, bare shoulders, naked towel, sidelighting, wallpaper, nsfw,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "eac6c08a19",
+                        "name": "Meina V9 - baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eac6c08a19",
+                "Hires steps": "10",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6d1c4f92-e512-4bda-1894-fbff38d7cd00/width=450/500004.jpeg",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UHFq]^Ip0Kxa00D*-p%24:~V-pIoxaIVM|Io",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 4121345068,
+                "Model": "Meina V9 - baked VAE",
+                "steps": 40,
+                "hashes": {
+                    "model": "eac6c08a19"
+                },
+                "prompt": "1girl, portrait, realistic, bare shoulders, sidelighting, wallpaper, nsfw,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "eac6c08a19",
+                        "name": "Meina V9 - baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eac6c08a19",
+                "Hires steps": "10",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/376ca73e-f6c5-419d-2065-d8a326fc2d00/width=450/500015.jpeg",
+            "nsfw": false,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UiKKm5o#%fs,~pkCV?xu%Loz$*kDogj[MyM{",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 1314539213,
+                "Model": "Meina V9 - baked VAE",
+                "steps": 40,
+                "hashes": {
+                    "model": "eac6c08a19"
+                },
+                "prompt": "1girl, (hanfu), sidelighting, wallpaper,",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "eac6c08a19",
+                        "name": "Meina V9 - baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eac6c08a19",
+                "Hires steps": "10",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b384425f-4c9c-462f-ec0f-a9f02e6c7400/width=450/500008.jpeg",
+            "nsfw": false,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UAFhx9~W00D%004.o#%M0L-p~CM|w]%2?HM|",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 3773375603,
+                "Model": "Meina V9 - baked VAE",
+                "steps": 40,
+                "hashes": {
+                    "model": "eac6c08a19"
+                },
+                "prompt": "1girl, (hanfu), glowing, sidelighting, wallpaper,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "eac6c08a19",
+                        "name": "Meina V9 - baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eac6c08a19",
+                "Hires steps": "10",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc584c48-fea2-4e71-4f36-cc9528c55100/width=450/500003.jpeg",
+            "nsfw": false,
+            "width": 2048,
+            "height": 4096,
+            "hash": "U69$g[0#9[Abax9w}rNa0M-n%2wI9_}=0$$*",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 2197649409,
+                "Model": "Meina V9 - baked VAE",
+                "steps": 40,
+                "hashes": {
+                    "model": "eac6c08a19"
+                },
+                "prompt": "1girl,red hair, flaming eye, katana, flames, burning houses, glowing, sidelighting, wallpaper,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "eac6c08a19",
+                        "name": "Meina V9 - baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eac6c08a19",
+                "Hires steps": "10",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d6dea89b-10e0-4f8e-f5fd-4a42f36bfe00/width=450/500016.jpeg",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UHH-#}005R-p?wDi?bt7-oIUbcxa9txa-UNG",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 2091481227,
+                "Model": "Meina V9 - baked VAE",
+                "steps": 40,
+                "hashes": {
+                    "model": "eac6c08a19"
+                },
+                "prompt": "1girl, black hair, school uniform, indoors, glowing, sidelighting, wallpaper,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "eac6c08a19",
+                        "name": "Meina V9 - baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eac6c08a19",
+                "Hires steps": "10",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),",
+                "Denoising strength": "0.3"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/46137"
+}

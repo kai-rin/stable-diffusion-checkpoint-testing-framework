@@ -1,0 +1,200 @@
+{
+    "id": 46199,
+    "modelId": 41206,
+    "name": "v1.0",
+    "createdAt": "2023-04-15T07:30:18.081Z",
+    "updatedAt": "2023-04-21T15:09:22.784Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>\u914d\u5408\u91cf\u304c\u591a\u3044\u9806\u306b\u8a18\u8f09<br />In descending order of content:</p><p><a target=\"_blank\" rel=\"ugc\" href=\"https://huggingface.co/prompthero/openjourney-v4\"><strong><u>Openjourney-v4</u></strong></a> / CreativeML OpenRAIL M, Trained<br /><a target=\"_blank\" rel=\"ugc\" href=\"https://huggingface.co/gsdf/Counterfeit-V2.5\"><strong><u>Counterfeit-V2.5</u></strong></a> / CreativeML OpenRAIL M, Trained</p><ul><li><p>\ud83d\udeab No Generation Service</p></li><li><p>\ud83d\udeab No Selling Models</p></li></ul><p><a target=\"_blank\" rel=\"ugc\" href=\"https://civitai.com/models/23521/anime-pastel-dream\"><strong><u>AnimePastelDream</u></strong></a> / CreativeML OpenRAIL M, Merged</p><ul><li><p>\ud83d\udeab Same Permissions Required</p></li><li><p>\ud83d\udeab No Selling Models</p></li></ul><p><a target=\"_blank\" rel=\"ugc\" href=\"https://huggingface.co/nuigurumi/basil_mix\"><strong><u>basil_mix</u></strong></a> / OpenRAIL M, Merged</p><ul><li><p>\ud83d\udca9 Change from OpenRAIL-M to Other license on April 17, 2023.</p></li><li><p>\ud83d\udca9 2023/4/17\u307e\u3067basil_mix\u306b\u4ed8\u4e0e\u3055\u308c\u3066\u3044\u305fOpenRAIL-M\u30e9\u30a4\u30bb\u30f3\u30b9\u306e\u6761\u98052\uff1a<a target=\"_blank\" rel=\"ugc\" href=\"https://www.licenses.ai/ai-pubs-open-railm-vz1\"><strong><u>INTELLECTUAL PROPERTY RIGHTS</u></strong></a> \u306b\u3088\u308a\u30e9\u30a4\u30bb\u30f3\u30b9\u306f\u5909\u66f4\u4e0d\u8981\u306a\u306e\u3067\u3001\u5f15\u304d\u7d9a\u304d\u4e0a\u8a18\u306e\u30e9\u30a4\u30bb\u30f3\u30b9\u3067\u3054\u5229\u7528\u9802\u3051\u307e\u3059\u3002</p></li><li><p>\ud83d\udca9 Based on <a target=\"_blank\" rel=\"ugc\" href=\"https://www.licenses.ai/ai-pubs-open-railm-vz1\"><strong><u>Section 2: INTELLECTUAL PROPERTY RIGHTS</u></strong></a> of the OpenRAIL-M license that was applicable to basil_mix until April 17, 2023, no changes are required to the previous license.</p></li></ul><p><a target=\"_blank\" rel=\"ugc\" href=\"https://civitai.com/models/25694/epicrealism\"><strong><u>epiCRealism</u></strong></a> / CreativeML OpenRAIL M, Trained</p>",
+    "stats": {
+        "downloadCount": 728,
+        "ratingCount": 3,
+        "rating": 5
+    },
+    "model": {
+        "name": "CoreMixPure",
+        "type": "Checkpoint",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "coremixpure_v10.safetensors",
+            "id": 34526,
+            "sizeKB": 2734482.786132812,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "pruned",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-04-15T09:27:17.767Z",
+            "hashes": {
+                "AutoV1": "3DECFFCC",
+                "AutoV2": "5F5303E7AD",
+                "SHA256": "5F5303E7ADC5D27443FD5860ABCAFDE1A6FC93975B93D03D8F1132FCAEE7A6B2",
+                "CRC32": "931C95BA",
+                "BLAKE3": "1C5CA182C927B6101344ABF5D9820D97EBF3BA61AA29AED1373213B99CDBD6F0"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/46199"
+        },
+        {
+            "name": "coremixpure_v10.safetensors",
+            "id": 34524,
+            "sizeKB": 2734482.790039062,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp32",
+                "size": "pruned",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-04-15T09:17:20.590Z",
+            "hashes": {
+                "AutoV1": "3DECFFCC",
+                "AutoV2": "1852E7BED5",
+                "SHA256": "1852E7BED502393C567CDDC5EE04589A56C8403890AD4B71446CAD2F48BC804A",
+                "CRC32": "4C8FAFE9",
+                "BLAKE3": "395254956135D58E489D209F6A9CF660CAABC3B2CC3ECAA5C4130D74956124B8"
+            },
+            "primary": false,
+            "downloadUrl": "https://civitai.com/api/download/models/46199?type=Model&format=SafeTensor"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f253097a-dd45-4e29-22d7-12005c24a700/width=450/500296.jpeg",
+            "nsfw": "None",
+            "width": 3072,
+            "height": 2048,
+            "hash": "UeHL-%s9t6TJ.T%Lbcj?Ekxas:j[RPS2n$V@",
+            "meta": {
+                "Size": "3072x2048",
+                "seed": 1163969784,
+                "Model": "CoreMixPure-V1-FP32-MASTER",
+                "steps": 30,
+                "hashes": {
+                    "model": "1852e7bed5"
+                },
+                "prompt": "absurdres, highres, reflection, refraction:1.4, ultra detailed:1.0, BREAK\n(1 cute girl:1.5, beautiful face) outdoor, old port town, scenery, on the bridge, portrait,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 8,
+                "'Overlap'": "48",
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "1852e7bed5",
+                        "name": "CoreMixPure-V1-FP32-MASTER",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR 4x'",
+                "Model hash": "1852e7bed5",
+                "'Scale factor'": "2",
+                "negativePrompt": "EasyNegative (worst quality, low quality:1.4) [:(badhandv4:1.5):27] simple background:1.0,",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.3",
+                "'Latent tile width'": "96",
+                "'Latent tile height'": "96",
+                "Tiled Diffusion upscaler": "SwinIR 4x",
+                "Tiled Diffusion scale factor": "2"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79796134-972a-4775-2c82-cf7f6613df00/width=450/500297.jpeg",
+            "nsfw": "None",
+            "width": 3840,
+            "height": 2560,
+            "hash": "UJGbF-~V004o_2ofIURj-;xuRPRj%MofM{WA",
+            "meta": {
+                "Size": "3840x2560",
+                "seed": 1350889807,
+                "Model": "coremix-pure_v1beta-fp32",
+                "steps": 30,
+                "hashes": {
+                    "model": "1852e7bed5"
+                },
+                "prompt": "absurdres, highres, reflection, refraction:1.4\nultra detailed:1.0 (illustration, line drawing),\nBREAK\n(1girl, finely detailed beautiful face, finely detailed eyes) raincoat, walking across the road, retro city background, (dynamic angle, from side, close-up shot),",
+                "'Steps'": "10",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 9,
+                "'Overlap'": "48",
+                "'Retouch'": "1",
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "1852e7bed5",
+                        "name": "coremix-pure_v1beta-fp32",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "1852e7bed5",
+                "'Kernel size'": "64}\"",
+                "'Scale factor'": "2.5",
+                "negativePrompt": "EasyNegative (worst quality, low quality, medium quality:1.4) long body [:(badhandv4:1.5):27] simple background:1.0",
+                "'Noise inverse'": "True",
+                "'Keep input size'": "True",
+                "'Tile batch size'": "1",
+                "'Renoise strength'": "1",
+                "Denoising strength": "0.32",
+                "'Latent tile width'": "96",
+                "'Latent tile height'": "96",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "2.5"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a9148d5-19ec-4d8f-87c6-6a9dc8998e00/width=450/500361.jpeg",
+            "nsfw": "None",
+            "width": 3072,
+            "height": 2048,
+            "hash": "UJI}el0K_Nog_NRjNFWB55nijIWVXQjZ-qRj",
+            "meta": {
+                "Size": "3072x2048",
+                "seed": 936154194,
+                "Model": "CoreMixPure-V1-FP32-MASTER",
+                "steps": 30,
+                "hashes": {
+                    "model": "1852e7bed5"
+                },
+                "prompt": "absurdres, highres, reflection, refraction:1.4, ultra detailed:1.0, young beautiful girl, white long hair, symmetry:2.0 BREAK\nzentangle,  double exposure, (layered imagery):1.2, blended visuals, overlapping compositions, dreamlike illusions, fallen angel, black wings:1.5, feathers flutter, tattoo, face tatoo, sad, red eyes, viewfinder, portrait,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 8,
+                "'Overlap'": "48",
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "1852e7bed5",
+                        "name": "CoreMixPure-V1-FP32-MASTER",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR 4x'",
+                "Model hash": "1852e7bed5",
+                "'Scale factor'": "2",
+                "negativePrompt": "EasyNegative (worst quality, low quality:1.4) [:(badhandv4:1.5):27]  simple background:1.0",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.33",
+                "'Latent tile width'": "96",
+                "'Latent tile height'": "96",
+                "Tiled Diffusion upscaler": "SwinIR 4x",
+                "Tiled Diffusion scale factor": "2"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/46199"
+}
