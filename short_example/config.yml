@@ -1,0 +1,85 @@
+grid:
+  title: My Short Example Grid
+  author: Created by YOUR NAME HERE for SOME REASON HERE
+  description: 'This is to demonstrate the concept of how the infinite-axis grid system works. This description here demonstrates multi-line YAML strings. <br>It also shows that you can write <b>HTML</b> if you want to.
+
+    '
+  params:
+    steps: 20
+    Sampler: euler
+    seed: 1
+    OutWidth: 256
+    OutHeight: 256
+  format: jpg
+  show descriptions: true
+  autoscale: false
+  sticky: false
+  x axis: sampler
+  y axis: steps
+  x super axis: None
+  y super axis: None
+axes:
+  sampler:
+    title: Sampler
+    description: Different samplers can produce slightly different output.
+    values:
+      euler_a:
+        title: Euler A
+        description: Euler Ancestral is like Euler, but with <b>ancestral</b> stuff.
+        params:
+          Sampler: euler a
+      euler:
+        title: Euler
+        description: Good ol k_euler.
+        params:
+          Sampler: Euler
+      ddim:
+        title: DDIM
+        description: The original.
+        params:
+          Sampler: ddim
+  steps:
+    title: Steps
+    description: How many times to run the sampler.
+    default: 20
+    values:
+      10:
+        title: 10
+        description: Ten times.
+        params:
+          Steps: 10
+      secret_option:
+        title: Secret Option
+        description: The hidden secret option!
+        skip: true
+        show: false
+        params:
+          steps: 150
+      15: steps=15
+      20: steps=20
+  cfgscale:
+    title: CFG Scale
+    default: 7
+    values:
+      3: CFG scale=3
+      5: CFG scale=5
+      7: CFG scale=7
+      9: CFG scale=9
+      11: CFG scale=11
+  seed: 1, 2, 3
+  prompt:
+    title: Prompt
+    values:
+      cat:
+        title: Cat
+        params:
+          prompt: A professional portrait of a cat in a location
+      dog:
+        title: Dog
+        params:
+          prompt: A photograph of a dog running in a location
+  promptreplaceexample:
+    title: Prompt Replacements
+    values:
+      field: PromptReplace= location = field
+      outer_space: PromptReplace= location = distant planet deep in outer space
