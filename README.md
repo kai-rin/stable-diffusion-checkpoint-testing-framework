@@ -42,3 +42,4 @@ as of 2023-05-03 23:03 JST
 - [Counterfeit-V3.0_fp16](./Counterfeit-V3.0_fp16/index.html) | [huggingface](https://huggingface.co/gsdf/Counterfeit-V3.0)
 - [ghostmix_v11Bakedvae](./ghostmix_v11Bakedvae/index.html) | [civitai](https://civitai.com/models/36520/ghostmix)
 - [meinamix_meinaV9](./meinamix_meinaV9/index.html) | [civitai](https://civitai.com/models/7240/meinamix)
+- [neverendingDreamNED_bakedVae](./neverendingDreamNED_bakedVae/index.html) | [civitai](https://civitai.com/models/10028/neverending-dream-ned)
