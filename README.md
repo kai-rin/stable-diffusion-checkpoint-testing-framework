@@ -27,7 +27,7 @@ Stable Diffusion系の生成モデルはカンブリア紀まっただ中。
 
 - [a7b3_v10](./a7b3_v10/index.html)
 - [anything-v4.5-pruned-fp16](./anything-v4.5-pruned-fp16/index.html)
-- [anythingV5](./anythingV5/index.html)
+- [anythingV5PrtRE](./anythingV5PrtRE/index.html)
 - [breakdomain_M2000_preview](./breakdomain_M2000_preview/index.html)
 - [breakdomainrealistic_M1871](./breakdomainrealistic_M1871/index.html)
 - [breakdro_I1464](./breakdro_I1464/index.html)
