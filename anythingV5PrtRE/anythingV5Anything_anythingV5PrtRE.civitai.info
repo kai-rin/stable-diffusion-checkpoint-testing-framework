@@ -1,0 +1,214 @@
+{
+    "id": 30163,
+    "modelId": 9409,
+    "name": "Anything-V5[Prt-RE]",
+    "createdAt": "2023-03-27T14:50:00.829Z",
+    "updatedAt": "2023-03-27T14:51:25.830Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Anything V5 | Anything diffusion Original",
+        "type": "Checkpoint",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "anythingV5Anything_anythingV5PrtRE.safetensors",
+            "id": 24906,
+            "sizeKB": 2082642.677734375,
+            "type": "Model",
+            "format": "SafeTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-27T16:57:08.453Z",
+            "hashes": {
+                "AutoV1": "893E49B9",
+                "AutoV2": "7F96A1A9CA",
+                "SHA256": "7F96A1A9CA9B3A3242A9AE95D19284F0D2DA8D5282B42D2D974398BF7663A252",
+                "CRC32": "1AE2FE78",
+                "BLAKE3": "3F550C0F090B89F37BA443D06E063AEFDF6DE08BBCC368C174236A38229E9A6A"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/30163"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aeda34a6-4db8-4f7e-23fd-c7bac4bcae00/width=450/342218",
+            "nsfw": false,
+            "width": 1280,
+            "height": 512,
+            "hash": "UND99u%M009Z~Wxu9FIUoyj[V@jYoej[RkWU",
+            "meta": null,
+            "userId": 262917,
+            "generationProcess": null,
+            "needsReview": false,
+            "scannedAt": "2023-03-27T14:50:03.343Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d6de1866-5fcd-4200-c5e0-a3159b5b5d00/width=450/342217",
+            "nsfw": false,
+            "width": 1280,
+            "height": 512,
+            "hash": "UEHe2;M{00Io~WkW9FE1D%t8sooJt7R%a$t7",
+            "meta": null,
+            "userId": 262917,
+            "generationProcess": null,
+            "needsReview": false,
+            "scannedAt": "2023-03-27T14:50:05.218Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5a67e6c4-553e-4f40-c5bf-ef4bf2aff100/width=450/342216",
+            "nsfw": false,
+            "width": 1280,
+            "height": 512,
+            "hash": "U;I#Dj~qxtWB%Mx]t7fkWCR*WBjtt6ofa#az",
+            "meta": null,
+            "userId": 262917,
+            "generationProcess": null,
+            "needsReview": false,
+            "scannedAt": "2023-03-27T14:50:09.633Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/30163"
+}

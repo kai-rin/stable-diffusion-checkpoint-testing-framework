@@ -1,0 +1,447 @@
+{
+    "id": 59312,
+    "modelId": 54917,
+    "name": "_m1871",
+    "createdAt": "2023-05-01T00:29:41.082Z",
+    "updatedAt": "2023-05-01T00:41:44.582Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>First Release.</p>",
+    "stats": {
+        "downloadCount": 398,
+        "ratingCount": 2,
+        "rating": 5
+    },
+    "model": {
+        "name": "BreakDomainRealistic",
+        "type": "Checkpoint",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "breakdomainrealistic_M1871.safetensors",
+            "id": 42115,
+            "sizeKB": 5481820.189453125,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "full",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-01T00:42:49.047Z",
+            "hashes": {
+                "AutoV1": "F78D538B",
+                "AutoV2": "273C77235D",
+                "SHA256": "273C77235D7A452DD220C073A0B6D10375457315B685CADFFD910A39B6F9B46F",
+                "CRC32": "625D84B9",
+                "BLAKE3": "F6F4C40B26D67826999E851CE78530FACEE48752A04CF4CB60DD1E1B4BA1B6B3"
+            },
+            "primary": false,
+            "downloadUrl": "https://civitai.com/api/download/models/59312?type=Model&format=SafeTensor&size=full&fp=fp16"
+        },
+        {
+            "name": "breakdomainrealistic_M1871.safetensors",
+            "id": 42112,
+            "sizeKB": 2124142.447265625,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "pruned",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-01T00:36:29.960Z",
+            "hashes": {
+                "AutoV1": "B3009069",
+                "AutoV2": "6A24A1137F",
+                "SHA256": "6A24A1137FC4BF0D0CA7B770897102448F28355955BFC434D73784FCEAF7E2E6",
+                "CRC32": "BF0811B7",
+                "BLAKE3": "B1FCA8B98B84512D970CF6748FB12FBF68425028AE1654FE9A14B76F3AB15890"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/59312"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31c51994-311e-4486-a1e5-f3c001e7c000/width=450/647233.jpeg",
+            "nsfw": "None",
+            "width": 2304,
+            "height": 3072,
+            "hash": "UNG+2YRkNyxa~Wof9FofNbjYM{R*RjRjM{xa",
+            "meta": {
+                "Size": "2304x3072",
+                "seed": 3222574139,
+                "Model": "_m1871-fp16-no-ema",
+                "steps": 30,
+                "hashes": {
+                    "model": "6a24a1137f"
+                },
+                "prompt": "bird, no humans, wings, planet, fantasy, gem, star (symbol), jewelry, feathers, 1boy, gears, animal,\n BREAK\nabsurdres, highres, ultra detailed, (1girl:1.3),",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "6a24a1137f",
+                        "name": "_m1871-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "6a24a1137f",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4), nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.35",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4cdc3c5a-309e-4551-6cef-9328b2c59f00/width=450/647234.jpeg",
+            "nsfw": "None",
+            "width": 1536,
+            "height": 2304,
+            "hash": "UJF$R]~qt6IUD%%MIU9Fj[ju9FM{-;IURjt7",
+            "meta": {
+                "Size": "1536x2304",
+                "seed": 2405115112,
+                "Model": "_m1871-fp16-no-ema",
+                "steps": 30,
+                "hashes": {
+                    "model": "6a24a1137f"
+                },
+                "prompt": "armor, japanese armor, male focus, katana, samurai, monochrome, kabuto, standing,\nBREAK\ngreyscale, full body, (from side:1.3), solo,\nBREAK\nabsurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\n, low-key lighting, moody ambiance, dark shadows, subtle highlights, mysterious aura\nBREAK\n, chiaroscuro, high contrast, dramatic shadows, bold highlights, moody atmosphere, captivating intensity, expressive brushwork\nBREAK\n, photo manipulation, altered realities, fantastical scenes, digital artistry, creative editing, evocative narratives, striking visuals",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6.5,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "6a24a1137f",
+                        "name": "_m1871-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'ESRGAN_4x'",
+                "Model hash": "6a24a1137f",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4), nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.41",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "ESRGAN_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1903818d-3b59-4349-a0dd-4f5fdaeefa00/width=450/647235.jpeg",
+            "nsfw": "None",
+            "width": 1536,
+            "height": 2304,
+            "hash": "UZGSM;_49FRj_N%NIUt7R+WCf6t7RjWCt7ay",
+            "meta": {
+                "Size": "1536x2304",
+                "seed": 3415836373,
+                "Model": "_m1871-fp16-no-ema",
+                "steps": 30,
+                "hashes": {
+                    "model": "6a24a1137f"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\n, Ninja, shuriken, kusarigama, ninjutsu, stealth, acrobatics, smoke bombs, shadow techniques\nBREAK\n, concrete art, Brutalist influence, bold forms, raw textures, geometric shapes, urban aesthetic, industrial design\nBREAK\n, long exposure, motion blur, fluid movement, ethereal atmosphere, dreamy trails, dynamic energy, time-lapse effect",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6.5,
+                "'Overlap'": "64",
+                "resources": [
+                    {
+                        "hash": "6a24a1137f",
+                        "name": "_m1871-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'ESRGAN_4x'",
+                "Model hash": "6a24a1137f",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4), nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.38",
+                "'Latent tile width'": "128",
+                "'Latent tile height'": "128",
+                "Tiled Diffusion upscaler": "ESRGAN_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fed27358-4c87-41bf-ff8e-dce803a74700/width=450/647236.jpeg",
+            "nsfw": "Soft",
+            "width": 1536,
+            "height": 2304,
+            "hash": "UHGI$Q?v*09x03M{9atR#k%L$yM{tStRRjR*",
+            "meta": {
+                "Size": "1536x2304",
+                "seed": 1677737246,
+                "Model": "_m1871-fp16-no-ema",
+                "steps": 30,
+                "hashes": {
+                    "model": "6a24a1137f"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\n, Windwalker, air magic, wind control, flight, agility, speed, aerial combat, soaring spirit\nBREAK\n, sand art, ephemeral creations, beach drawings, sculpted sand, temporary installations, environmental art, natural medium\nBREAK\n, cameo art, relief carving, intricate details, miniature scenes, historic charm, skilled craftsmanship, timeless elegance",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6.5,
+                "'Overlap'": "64",
+                "resources": [
+                    {
+                        "hash": "6a24a1137f",
+                        "name": "_m1871-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'ESRGAN_4x'",
+                "Model hash": "6a24a1137f",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4), nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.38",
+                "'Latent tile width'": "128",
+                "'Latent tile height'": "128",
+                "Tiled Diffusion upscaler": "ESRGAN_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/283e4928-bb1e-4d55-b20e-a940a2113e00/width=450/647237.jpeg",
+            "nsfw": "Soft",
+            "width": 1536,
+            "height": 2304,
+            "hash": "ULDADdDi_4%gx^ITRitR00V@DiWBt7WAt7j[",
+            "meta": {
+                "Size": "1536x2304",
+                "seed": 4284724881,
+                "Model": "_m1871-fp16-no-ema",
+                "steps": 30,
+                "hashes": {
+                    "model": "6a24a1137f"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\n, Stormcaster, weather magic, storm control, thunder and lightning, hurricane summoning, tempestuous power, elemental fury\nBREAK\n, infrared photography, otherworldly hues, surreal landscapes, unseen light, ethereal glow, vibrant colors, ghostly effect\nBREAK\n, photo manipulation, altered realities, fantastical scenes, digital artistry, creative editing, evocative narratives, striking visuals",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6.5,
+                "'Overlap'": "64",
+                "resources": [
+                    {
+                        "hash": "6a24a1137f",
+                        "name": "_m1871-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'ESRGAN_4x'",
+                "Model hash": "6a24a1137f",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4), nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.38",
+                "'Latent tile width'": "128",
+                "'Latent tile height'": "128",
+                "Tiled Diffusion upscaler": "ESRGAN_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1407e048-99c2-468b-062b-8fcc1359a100/width=450/647238.jpeg",
+            "nsfw": "None",
+            "width": 1536,
+            "height": 2304,
+            "hash": "UWIXpm%2~VXTtRbct7t6ofbbM{s.xZxtR+NH",
+            "meta": {
+                "Size": "1536x2304",
+                "seed": 4284724888,
+                "Model": "_m1871-fp16-no-ema",
+                "steps": 30,
+                "hashes": {
+                    "model": "6a24a1137f"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\n, Observer, keen senses, perception, intuition, investigation, insight, deduction, awareness\nBREAK\n, color field painting, large swaths of color, abstract expressionism, bold hues, emotional impact, atmospheric depth, minimalist approach\nBREAK\n, shadow box, 3D display, layered compositions, mixed media, visual depth, captivating storytelling, artistic presentation",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6.5,
+                "'Overlap'": "64",
+                "resources": [
+                    {
+                        "hash": "6a24a1137f",
+                        "name": "_m1871-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'ESRGAN_4x'",
+                "Model hash": "6a24a1137f",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4), nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.38",
+                "'Latent tile width'": "128",
+                "'Latent tile height'": "128",
+                "Tiled Diffusion upscaler": "ESRGAN_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a2020a4-8193-4ab3-e03b-2ee88ec91900/width=450/647239.jpeg",
+            "nsfw": "None",
+            "width": 1536,
+            "height": 2304,
+            "hash": "UQI#W1%M~qM{_3%MWBM{?bWVfkxuxZjFM{WX",
+            "meta": {
+                "Size": "1536x2304",
+                "seed": 2673570016,
+                "Model": "_m1871-fp16-no-ema",
+                "steps": 30,
+                "hashes": {
+                    "model": "6a24a1137f"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\n, Beastmaster, animal companions, bond with nature, animal handling, tracking, wilderness survival, empathetic connection\nBREAK\n, brushless painting, unconventional tools, innovative techniques, unique textures, creative mark-making, abstract expressions\nBREAK\n, photojournalism, documentary photography, visual storytelling, capturing moments, historical records, social commentary, powerful imagery",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6.5,
+                "'Overlap'": "64",
+                "resources": [
+                    {
+                        "hash": "6a24a1137f",
+                        "name": "_m1871-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'ESRGAN_4x'",
+                "Model hash": "6a24a1137f",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4), nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.38",
+                "'Latent tile width'": "128",
+                "'Latent tile height'": "128",
+                "Tiled Diffusion upscaler": "ESRGAN_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c79604a-8a51-42b2-f6aa-e30143cdd400/width=450/647241.jpeg",
+            "nsfw": "None",
+            "width": 1536,
+            "height": 2304,
+            "hash": "ULE{wy%MDiM{_NoeoLbIxvt7ofkC-=s:IUWB",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3553082195,
+                "Model": "_m1871-fp16-no-ema",
+                "steps": 30,
+                "hashes": {
+                    "model": "6a24a1137f"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\n, Observer, keen senses, perception, intuition, investigation, insight, deduction, awareness\nBREAK\n, concrete art, cement sculptures, industrial design, urban installations, modern aesthetic, architectural influence, durable medium\nBREAK\n, long exposure, motion blur, fluid movement, ethereal atmosphere, dreamy trails, dynamic energy, time-lapse effect",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6.5,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "6a24a1137f",
+                        "name": "_m1871-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6a24a1137f",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4), nsfw",
+                "Denoising strength": "0.47"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f45aaa84-1caa-40fa-1b7f-ad4838389e00/width=450/647242.jpeg",
+            "nsfw": "None",
+            "width": 1536,
+            "height": 2304,
+            "hash": "UPFYcERk0Kt80LxaxtWB~UoLIVM{%1j[NGax",
+            "meta": {
+                "Size": "512x768",
+                "seed": 451489672,
+                "Model": "_m1871-fp16-no-ema",
+                "steps": 30,
+                "hashes": {
+                    "model": "6a24a1137f"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\n, Chronomancer, time magic, temporal manipulation, time travel, aging control, future sight, clockwork spells\nBREAK\n, airbrush art, smooth gradients, soft transitions, fine details, photorealistic effects, versatile medium, automotive art\nBREAK\n, paper cut light boxes, layered silhouettes, illuminated designs, depth and dimension, shadow play, enchanting atmosphere, creative storytelling",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6.5,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "6a24a1137f",
+                        "name": "_m1871-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6a24a1137f",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4), nsfw",
+                "Denoising strength": "0.47"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c10c77f8-69d1-4e06-4b86-f1caa0a2c700/width=450/647243.jpeg",
+            "nsfw": "None",
+            "width": 1536,
+            "height": 2304,
+            "hash": "UCFFmi00yFr:75-p?bMx4os.M{s:~BE18_t6",
+            "meta": {
+                "Size": "1536x2304",
+                "seed": 485619901,
+                "Model": "_m1871-fp16-no-ema",
+                "steps": 30,
+                "hashes": {
+                    "model": "6a24a1137f"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\n, Tinkerer, mechanical gadgets, gears, blueprints, clockwork creations, steam-powered devices, engineering skills\nBREAK\n, panoramic photography, wide-angle vistas, immersive landscapes, stunning views, expansive scenes, visual depth, breathtaking perspectives\nBREAK\n, negative space, minimalist composition, empty areas, contrasting forms, visual balance, thought-provoking design, artistic simplicity",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6.5,
+                "'Overlap'": "64",
+                "resources": [
+                    {
+                        "hash": "6a24a1137f",
+                        "name": "_m1871-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'ESRGAN_4x'",
+                "Model hash": "6a24a1137f",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4), nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.45",
+                "'Latent tile width'": "128",
+                "'Latent tile height'": "128",
+                "Tiled Diffusion upscaler": "ESRGAN_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/59312"
+}

@@ -1,0 +1,465 @@
+{
+    "id": 53149,
+    "modelId": 28828,
+    "name": "_i1464",
+    "createdAt": "2023-04-23T11:11:07.688Z",
+    "updatedAt": "2023-04-23T13:56:40.673Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>Only models that are obligated to be publicly available will be published.<br />\u516c\u958b\u7fa9\u52d9\u306e\u3042\u308b\u30e2\u30c7\u30eb\u306e\u307f\u3092\u516c\u958b\u3057\u307e\u3059\u3002</p><p>rev-animated <a target=\"_blank\" rel=\"ugc\" href=\"https://civitai.com/models/7371/rev-animated\">https://civitai.com/models/7371/rev-animated</a></p><p>(new) Lyriel <a target=\"_blank\" rel=\"ugc\" href=\"https://civitai.com/models/22922/lyriel\">https://civitai.com/models/22922/lyriel</a></p><p>(new) MeinaMix <a target=\"_blank\" rel=\"ugc\" href=\"https://civitai.com/models/7240/meinamix\">https://civitai.com/models/7240/meinamix</a></p><p><br />Special Thanks: </p><p>blue_pencil-v5 <a target=\"_blank\" rel=\"ugc\" href=\"https://huggingface.co/bluepen5805/blue_pencil\">https://huggingface.co/bluepen5805/blue_pencil</a></p><p>CoreMix <a target=\"_blank\" rel=\"ugc\" href=\"https://huggingface.co/corechan/CoreMix\">https://huggingface.co/corechan/CoreMix</a></p><p>chilled_remix <a target=\"_blank\" rel=\"ugc\" href=\"https://huggingface.co/sazyou-roukaku/chilled_remix\">https://huggingface.co/sazyou-roukaku/chilled_remix</a></p>",
+    "stats": {
+        "downloadCount": 240,
+        "ratingCount": 1,
+        "rating": 5
+    },
+    "model": {
+        "name": "BreakDro",
+        "type": "Checkpoint",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "breakdro_I1464.safetensors",
+            "id": 38628,
+            "sizeKB": 2124142.447265625,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "pruned",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-04-23T11:23:01.785Z",
+            "hashes": {
+                "AutoV1": "138F9E27",
+                "AutoV2": "683FB86A54",
+                "SHA256": "683FB86A54315E4762D44244D4FD1A15AF6B863E05314B50A623118D5C3D5C77",
+                "CRC32": "90794544",
+                "BLAKE3": "1D4E1A3A735C79D71B12F7A54DEA532C24486FD5BF95A7A27CA3E66B55796FF2"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/53149"
+        },
+        {
+            "name": "breakdro_I1464.safetensors",
+            "id": 38629,
+            "sizeKB": 3802986.4296875,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "full",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-04-23T11:22:55.302Z",
+            "hashes": {
+                "AutoV1": "DE2F2560",
+                "AutoV2": "369FEEC07A",
+                "SHA256": "369FEEC07AB06833090C2E78C511FE11E627335FFD9D2393287D21E1335DD0F4",
+                "CRC32": "C7F4938D",
+                "BLAKE3": "400C30BC626D14A20CF0C45B69E500099A2A62384EC7BA66227860EBD510BA76"
+            },
+            "primary": false,
+            "downloadUrl": "https://civitai.com/api/download/models/53149?type=Model&format=SafeTensor"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a5c39e98-d4b7-4dae-1a70-0729e9598e00/width=450/574187.jpeg",
+            "nsfw": false,
+            "width": 2304,
+            "height": 3072,
+            "hash": "UJH-x.~V000101E1IoRj.7oLsm%LE2Io?G%M",
+            "meta": {
+                "Size": "2304x3072",
+                "seed": 275863288,
+                "Model": "_i1464fp16",
+                "steps": 9,
+                "hashes": {
+                    "model": "9803f4b180"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\nstippling technique, dotted shading, intricate details, fine dots, textural effects, subtle gradation, engaging craftsmanship\nBREAK\npaint splatter, expressive drips, random patterns, energetic movement, bold colors, dynamic texture, spontaneous creativity",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "9803f4b180",
+                        "name": "_i1464fp16",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "9803f4b180",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4),  [:(badhandv4:1.5):27],nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.3",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1fb1b4e-864f-409b-419c-af4a2d023800/width=450/574188.jpeg",
+            "nsfw": true,
+            "width": 2304,
+            "height": 3072,
+            "hash": "USK^+^?a~q9G~WRjM{RjD%WBRPIUIUIU%LR+",
+            "meta": {
+                "Size": "2304x3072",
+                "seed": 3972833607,
+                "Model": "_i1464fp16",
+                "steps": 18,
+                "hashes": {
+                    "model": "9803f4b180"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\ntypography, lettering art, calligraphy, expressive fonts, visual language, graphic design, creative communication\nBREAK\nmusic box art, intricate mechanisms, melodic creations, nostalgic charm, delicate craftsmanship, artistic engineering",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "9803f4b180",
+                        "name": "_i1464fp16",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "9803f4b180",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4),  [:(badhandv4:1.5):27],nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.3",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/148a71cb-f283-4640-586e-ed32c14b8600/width=450/574191.jpeg",
+            "nsfw": true,
+            "width": 2304,
+            "height": 3072,
+            "hash": "ULDvWY~p?voz-;%M-:xa01M|IVofD%M|E2bI",
+            "meta": {
+                "Size": "2304x3072",
+                "seed": 1516771231,
+                "Model": "_i1464fp16-fp16-no-ema",
+                "steps": 10,
+                "hashes": {
+                    "model": "683fb86a54"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\nDoreen style, ornate patterns, rich colors, intricate details, fantasy-inspired, surreal atmosphere, otherworldly visuals\nBREAK\ndouble exposure, layered images, merged visuals, evocative storytelling, dreamlike atmosphere, creative blending, thought-provoking composition",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6.5,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "683fb86a54",
+                        "name": "_i1464fp16-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "683fb86a54",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4),  [:(badhandv4:1.5):27],nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.3",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/568ecdbc-9fbe-4e5a-95e9-f3acdaa5c300/width=450/574192.jpeg",
+            "nsfw": false,
+            "width": 2304,
+            "height": 3072,
+            "hash": "UJF$keSh8w4n.T%gDhVr0Le.R,xt-pRPIVj[",
+            "meta": {
+                "Size": "2304x3072",
+                "seed": 1863035446,
+                "Model": "_i1464fp16-fp16-no-ema",
+                "steps": 10,
+                "hashes": {
+                    "model": "683fb86a54"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\npanoramic photography, wide-angle vistas, immersive landscapes, stunning views, expansive scenes, visual depth, breathtaking perspectives\nBREAK\nshadow box art, three-dimensional displays, layered compositions, depth and dimension, storytelling through objects, creative dioramas",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 30,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "683fb86a54",
+                        "name": "_i1464fp16-fp16-no-ema",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "683fb86a54",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4),  [:(badhandv4:1.5):27],nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.3",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8adbce03-705f-4417-78a2-cd6a2113d600/width=450/574193.jpeg",
+            "nsfw": false,
+            "width": 2304,
+            "height": 3072,
+            "hash": "U8FE$H7i00D%~VTL%3t35*-oJX$xH=M{o~$x",
+            "meta": {
+                "Size": "2304x3072",
+                "seed": 950001012,
+                "Model": "_i1464fp16",
+                "steps": 11,
+                "hashes": {
+                    "model": "9803f4b180"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3), \nBREAK  \n superimposition, layered imagery, overlapping visuals, complex composition, blended effects, intriguing narrative, thought-provoking concept\nBREAK\ndigital art, vector illustrations, computer-generated imagery, polished graphics, versatile techniques, cutting-edge design",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "9803f4b180",
+                        "name": "_i1464fp16",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "9803f4b180",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4),  [:(badhandv4:1.5):27],nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.3",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b9f0ead3-c7aa-4863-af4d-e2a755cd7500/width=450/574194.jpeg",
+            "nsfw": false,
+            "width": 2304,
+            "height": 3072,
+            "hash": "U5D0Gq00s,9Z00tRbcWU00~qITtR?Gx]4ntR",
+            "meta": {
+                "Size": "2304x3072",
+                "seed": 3140695667,
+                "Model": "_i1464fp16",
+                "steps": 10,
+                "hashes": {
+                    "model": "9803f4b180"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3),\nBREAK\nconcrete art, cement sculptures, industrial design, urban installations, modern aesthetic, architectural influence, durable medium\nBREAK\npanoramic photography, wide-angle vistas, immersive landscapes, stunning views, expansive scenes, visual depth, breathtaking perspectives",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 6,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "9803f4b180",
+                        "name": "_i1464fp16",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "9803f4b180",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4),  [:(badhandv4:1.5):27],nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.52",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6c0f285-bf93-4c82-c01a-cb2201b77200/width=450/574195.jpeg",
+            "nsfw": false,
+            "width": 2304,
+            "height": 3072,
+            "hash": "UPJHp:kq~p-6tmxts;s.?bI@%Mt7~ARkk9xt",
+            "meta": {
+                "Size": "2304x3072",
+                "seed": 1273732766,
+                "Model": "_i1464fp16",
+                "steps": 12,
+                "hashes": {
+                    "model": "9803f4b180"
+                },
+                "prompt": "absurdres, highres, ultra detailed, (1girl:1.3), \nBREAK  \n Zentangle, structured patterns, meditative drawing, intricate designs, focus and relaxation, creative doodling, artistic expression\nBREAK\ntypography, lettering art, calligraphy, expressive fonts, visual language, graphic design, creative communication",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "9803f4b180",
+                        "name": "_i1464fp16",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "9803f4b180",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4),  [:(badhandv4:1.5):27],nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.32",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e8acd6f0-2b8d-435b-850d-caab1b978c00/width=450/574196.jpeg",
+            "nsfw": false,
+            "width": 3072,
+            "height": 2304,
+            "hash": "UDIhX0};VW$%^in39E-p8_n~tRjY9a%htRRO",
+            "meta": {
+                "Size": "3072x2304",
+                "seed": 2286165979,
+                "Model": "_i1464fp16",
+                "steps": 10,
+                "hashes": {
+                    "model": "9803f4b180"
+                },
+                "prompt": "(absurdres, highres, ultra detailed), (1girl:1.3),\nBREAK\n, furry friends, loyal companions, wild creatures, animal encounters, playful antics, heartwarming bonds\nBREAK\n, Inuit art, indigenous motifs, tribal patterns, cultural designs, animal representations, traditional symbolism, Arctic heritage\nBREAK\n, fauvism, bold color palette, expressive brushwork, vivid hues, strong contrasts, emotional impact, modern art movement,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "9803f4b180",
+                        "name": "_i1464fp16",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "9803f4b180",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4),  [:(badhandv4:1.5):27],nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.32",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d4805e8-2050-49fd-4a93-a44d9c644600/width=450/574197.jpeg",
+            "nsfw": false,
+            "width": 3072,
+            "height": 2304,
+            "hash": "UEFYGY_3RPD*_N^*niIUTJxaW=a#afE2D*R+",
+            "meta": {
+                "Size": "3072x2304",
+                "seed": 3085084130,
+                "Model": "_i1464fp16",
+                "steps": 30,
+                "hashes": {
+                    "model": "9803f4b180"
+                },
+                "prompt": "(absurdres, highres, ultra detailed), (1girl:1.3),\nBREAK\n, furry friends, loyal companions, wild creatures, animal encounters, playful antics, heartwarming bonds\nBREAK\n, batik patterns, wax-resist dyeing, textile art, intricate designs, cultural expression, Indonesian heritage, vibrant colors\nBREAK\n, impressionistic style, loose brushwork, dappled light, vivid colors, evocative atmosphere, expressive movement, painterly textures,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "9803f4b180",
+                        "name": "_i1464fp16",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "9803f4b180",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4),  [:(badhandv4:1.5):27],nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.32",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6b617853-8056-4b2a-4e40-67d68c279100/width=450/574198.jpeg",
+            "nsfw": true,
+            "width": 3072,
+            "height": 2304,
+            "hash": "UCD96cxGI:9axa~V9ZbHI:E1%2s:j[kCV@jZ",
+            "meta": {
+                "Size": "3072x2304",
+                "seed": 3371605115,
+                "Model": "_i1464fp16",
+                "steps": 10,
+                "hashes": {
+                    "model": "9803f4b180"
+                },
+                "prompt": "(absurdres, highres, ultra detailed), (1girl:1.3),\nBREAK\n, global adventures, cultural experiences, breathtaking destinations, local customs, immersive travel, sightseeing\nBREAK\n, art nouveau, flowing lines, organic shapes, intricate patterns, decorative designs, elegant forms, natural inspiration\nBREAK\n, chiaroscuro, high contrast, dramatic shadows, bold highlights, moody atmosphere, captivating intensity, expressive brushwork,",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "'Overlap'": "128",
+                "resources": [
+                    {
+                        "hash": "9803f4b180",
+                        "name": "_i1464fp16",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'SwinIR_4x'",
+                "Model hash": "9803f4b180",
+                "'Scale factor'": "3",
+                "negativePrompt": "EasyNegative, (worst quality, low quality:1.4),  [:(badhandv4:1.5):27],nsfw",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "1",
+                "Denoising strength": "0.29",
+                "'Latent tile width'": "256",
+                "'Latent tile height'": "256",
+                "Tiled Diffusion upscaler": "SwinIR_4x",
+                "Tiled Diffusion scale factor": "3"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/53149"
+}
