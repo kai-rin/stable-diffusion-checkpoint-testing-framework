@@ -29,7 +29,7 @@ Stable Diffusion系の生成モデルはカンブリア紀まっただ中。
 
 ## 各モデルの検証Gridへのリンク
 
-As of 2023-05-04 04:45
+As of 2023-05-04 09:32
 |  検証Gridへのリンク  |  モデル配布元へのリンク  |
 | ---- | ---- |
 |  [a7b3_v10](./a7b3_v10/index.html)   |  [civitai](https://civitai.com/models/43804/)  |
@@ -44,6 +44,7 @@ As of 2023-05-04 04:45
 |  [ghostmix_v11Bakedvae](./ghostmix_v11Bakedvae/index.html)   |  [civitai](https://civitai.com/models/36520/)  |
 |  [HimawariMix-test-v4A](./HimawariMix-test-v4A/index.html)   |
 |  [HimawariMix-test-v4B](./HimawariMix-test-v4B/index.html)   |
+|  [meinamix_meinaV8](./meinamix_meinaV8/index.html)   |  [civitai](https://civitai.com/models/7240/)  |
 |  [meinamix_meinaV9](./meinamix_meinaV9/index.html)   |  [civitai](https://civitai.com/models/7240/)  |
 |  [neverendingDreamNED_bakedVae](./neverendingDreamNED_bakedVae/index.html)   |  [civitai](https://civitai.com/models/10028/)  |
 |  [short_example](./short_example/index.html)   |
