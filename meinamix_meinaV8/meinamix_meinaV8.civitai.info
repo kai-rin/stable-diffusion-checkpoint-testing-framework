@@ -1,0 +1,2757 @@
+{
+    "id": 20322,
+    "modelId": 7240,
+    "name": "Meina V8",
+    "createdAt": "2023-03-08T15:59:48.771Z",
+    "updatedAt": "2023-03-20T07:07:38.971Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>( all of the images in the samples are <strong>upscaled by 2x using SDwebui extras tab</strong>.)<br /><br />If you have any questions related to the model or its samples, how to get started or just want to share your creations, feel free to join the newly created discord: <a target=\"_blank\" rel=\"ugc\" href=\"https://discord.gg/F6yeQtEQ98\">https://discord.gg/F6yeQtEQ98</a> &lt;3<br /><br /><strong>MeinaMix V8</strong> is a result of block merge between V7 and MeinaHentai V2. <strong>it may generate nsfw images</strong> every now and then, <strong>add 'nsfw'</strong> in the <strong>negatives to avoid that</strong> from happening!<br /><br /><strong>Hires.fix is no longer a need</strong> in order to make decent images, but it will improve images where the face is far away, as in full body images and others alike.<br />---------------------------------------------<br /><strong>Recommendations:</strong><br /><strong>Sampler:</strong> DPM++ 2M Karras: 25 steps.<br /><strong>CFG Scale:</strong> between 5 to 9.<br /><strong>Resolutions:</strong> 512x768, 512x1024. ( 768x512 may work but not tested yet ) <strong>Hires.fix:</strong> R-ESRGAN 4x or +Anime6b, with 15 steps at 0.1 up to 0.3 denoising.<br /><strong>Clip Skip:</strong> 2. <br /><strong>Negatives:</strong> ' (worst quality, low quality:1.4), monochrome, zombie '<br />---------------------------------------------</p>",
+    "model": {
+        "name": "MeinaMix",
+        "type": "Checkpoint",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "meinamix_meinaV8.safetensors",
+            "id": 16931,
+            "sizeKB": 3374827.3203125,
+            "type": "Model",
+            "format": "SafeTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-08T16:12:27.282Z",
+            "hashes": {
+                "AutoV1": "C0D5A8E7",
+                "AutoV2": "30953AB0DE",
+                "SHA256": "30953AB0DEF62B5D0E90B8F84BD40F0AF6048426C5F851535563E28FDEE0684A",
+                "CRC32": "6B43B83A",
+                "BLAKE3": "2A46654F57F7A7E7F681B3171E8258B765F31D3D6188DE11682301AB5DAD1D90"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/20322"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/570ebd34-c0b0-40ed-bf20-cde56bcf5c00/width=450/215137",
+            "nsfw": false,
+            "width": 1024,
+            "height": 2048,
+            "hash": "U368HpD$00e-}8Na9ujY4mnh?woz0gxv;cf6",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 3890781153,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "(masterpiece, best quality, ultra-detailed, best shadow), (detailed background,dark fantasy), (beautiful detailed face), high contrast, (best illumination, an extremely delicate and beautiful), ((cinematic light)), colorful, hyper detail, dramatic light, intricate details, (1 girl, solo,black hair, sharp face,low twintails,red eyes, hair between eyes,dynamic angle), blood splatter, swirling black light around the character, depth of field,black light particles,(broken glass),magic circle,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:41.676Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111773,
+                        "name": "glove",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e03bda2d-07c9-4ce5-2c04-8c57f8c91100/width=450/215136",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UCBzX.Md00D%~qo~8_R459xZ#ks:E0xasmI;",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 2771960172,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "masterpiece, best quality, (extremely detailed CG unity 8k wallpaper, masterpiece, best quality, ultra-detailed, best shadow), (detailed background), (beautiful detailed face, beautiful detailed eyes), High contrast, (best illumination, an extremely delicate and beautiful),1girl,((colourful paint splashes on transparent background, dulux,)), ((caustic)), dynamic angle,beautiful detailed glow,full body, cowboy shot,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T18:39:08.394Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": false,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a944775-f9e4-406f-581d-24ad5e1fd100/width=450/215174",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "U4I;VE010000~P9a000100-o?Hx^X9wbFM.8",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 2677482227,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "(photorealistic:1.4), (masterpiece, sidelighting, finely detailed beautiful eyes: 1.2), masterpiece*portrait, realistic, 3d face, glowing eyes, shiny hair, lustrous skin, solo, embarassed, (midriff),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "30",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T18:39:08.838Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111882,
+                        "name": "blouse",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": false,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5973,
+                        "name": "bra",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/978a7842-f55d-49aa-4360-955c31747700/width=450/215135",
+            "nsfw": true,
+            "width": 1024,
+            "height": 2048,
+            "hash": "U8GbC-%N01000000%N~q00-4=_Ne%#?bROI9",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 2252696510,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "(masterpiece:1.3), (best quality:1.1), ((1girl)), ((solo)), (red eyes:1.4), (finely detailed eyes and detailed face:1.3), (beautiful and clear background:1.2), (extremely detailed CG, ultra-detailed, best shadow:1.1), ((depth of field)), ((watercolor)), (oni:1.5), (kimono:1.3), large breasts, bare shoulders, flowers and petals, beautiful concept illustration, (white background:0.5), (illustration:1.1), (extremely fine and beautiful:1.1), (perfect details:1.1), from side, cowboy shot,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T18:39:09.150Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111761,
+                        "name": "formal wear",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111939,
+                        "name": "gown",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": false,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 112378,
+                        "name": "robe",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111759,
+                        "name": "accessories",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111765,
+                        "name": "bag",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111766,
+                        "name": "handbag",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/41ce9aee-ae03-4d74-dbb4-a381e78f8700/width=450/215134",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UJJtYd~V56R5J*X9$%X80LM{-:s.M{xuxut7",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 1182554855,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "(Masterpiece:1.2), best quality, (illustration:1.2), (ultra-detailed), hyper details, (delicate detailed), (intricate details), (cinematic light, best quality Backlights), clear line, from below, solo female, perfect body, (1girl), white hair, glowing yellow eyes, (emperor, black see-through clothes),(crown:1.1), sitting on Throne, slightly close eyes, looking downward, turn head, ( shy:1.2), ((makeup)), high contrast, (best illumination, an extremely delicate and beautiful), ((cinematic light)), colorful,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:41.734Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 6652,
+                        "name": "bride",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111759,
+                        "name": "accessories",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbd53569-bfc1-421d-86bc-e3e899270800/width=450/215157",
+            "nsfw": false,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UJGIG$_ND$V?%g%04:-;4-9axYIo0L%1s:D%",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 3459739367,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "(masterpiece, finely detailed beautiful eyes: 1.2), (on the moon, space, looking back into earth), white hair, black tank top, volumetric lighting, white jacket, glowing headphone, cyberpunk, futuristic, multi-color eyes, detailed eyes, hyper detailed,light smile, highly detailed, beautiful, small details, ultra detailed, best quality, intricate, hyperrealism, sharp, digital illustration, detailed, realism, intricate, 4k, 8k, trending on artstation, good anatomy, beautiful lighting, award-winning, photorealistic, realistic shadows, realistic lighting, beautiful lighting, raytracing, intricate details, moody, rule of thirds, masterpiece, (illustration:1.1), highres, (extremely detailed CG, unity, 8k wallpaper:1.1), beautiful face, highly detailed face, ultra realistic, masterpiece, bokeh, extremely detailed, intricate, zoomout, colorful, vibrant colors, red nail polish, side view,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T18:39:08.834Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 1895,
+                        "name": "electronics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111879,
+                        "name": "headphones",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/181eadbb-bc63-464c-d7e2-be57c0386200/width=450/215423",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "U5C=}A019^?byDRP0Loz00tR9GIo00-;~B%2",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 1426065275,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "masterpiece, best quality, (extremely detailed CG unity 8k wallpaper, masterpiece, best quality, ultra-detailed, best shadow), (detailed background), (beautiful detailed face, beautiful detailed eyes), High contrast, (best illumination, an extremely delicate and beautiful),1girl,((colourful paint splashes on transparent background, dulux,)), ((caustic)), dynamic angle,beautiful detailed glow,full body, cowboy shot,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie, blue eyes,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:43.483Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8af44821-2488-4b93-021c-139fb2351700/width=450/215173",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UBJQcp~V0e~U00=_M{IU00M{_2kWVYM|Nexu",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 2677482223,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "(photorealistic:1.4), (masterpiece, sidelighting, finely detailed beautiful eyes: 1.2), masterpiece*portrait, realistic, 3d face, glowing eyes, shiny hair, lustrous skin, solo, embarassed, (midriff),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "30",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T18:39:09.360Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 112070,
+                        "name": "female swimwear or underwear",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5973,
+                        "name": "bra",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac87bb62-a07d-4fb5-7836-52b637cb7b00/width=450/215132",
+            "nsfw": true,
+            "width": 1024,
+            "height": 2048,
+            "hash": "U9Nbr,?cCm_3mVV@00s:OaMy5PaK?Zt74.s:",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 211702014,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "1girl, cute, pastel pink hair, (pastel rainbow eye:0.9) (colorful:0.7) succubus, (masterpiece, best quality, volumetric lighting, dynamic pose, detailed face) (perfect details) (perfect eyes) ultra detailed, perfect composition, BREAK, hires, 8k, HD, (female focus:1.4),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T18:39:08.873Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2013,
+                        "name": "nudity",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7b13ad77-b076-4186-c466-dcd7ff86c200/width=450/215131",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "ULLNDS~q9txbI@%M9EofMxaebvj[x]M|VsWB",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 1856684016,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "highres, highest quallity, illustration, cinematic light, ultra detailed, detailed face, (detailed eyes), best quality, hyper detailed, masterpiece, (detailed face), white hair, purple eyes, highest details, luminous eyes, medium breats, black halo, white clothes, backlighting, (midriff:1.4), light rays, (high contrast), (colorful),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "Variation seed": "1584780199",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Seed resize from": "1024x2048",
+                "Denoising strength": "0.3",
+                "Variation seed strength": "1"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:41.800Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 6652,
+                        "name": "bride",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111778,
+                        "name": "wedding",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111882,
+                        "name": "blouse",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ba81c25-e860-4963-4839-243838cdc200/width=450/215158",
+            "nsfw": true,
+            "width": 2048,
+            "height": 3072,
+            "hash": "UHDvG{IU9F~V-n0LE2^+V?E1xaxZ~WtQ%Lj?",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1364788052,
+                "Model": "Meina V8 baked VAE",
+                "steps": 25,
+                "prompt": "highres, highest quallity, illustration, cinematic light, ultra detailed, detailed face, (detailed eyes), best quality, hyper detailed, masterpiece, (detailed face),1girl, girl, white hair, purple eyes, highest details, luminous eyes, medium breats, sitting in bed, sitting, bed, window, night sky, lake outside, moon, full moon, backlighting, light rays, (high contrast), (colorful),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "30953ab0de",
+                        "name": "Meina V8 baked VAE",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "30953ab0de",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:42.338Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": false,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111761,
+                        "name": "formal wear",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111939,
+                        "name": "gown",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19583c11-c167-4a6f-13ef-5013e50ed100/width=450/215422",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UGLgnp%N9u~q?w_3W.?bIp?v%Mj[%1%MMxae",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 1856684016,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "highres, highest quallity, illustration, cinematic light, ultra detailed, detailed face, (detailed eyes), best quality, hyper detailed, masterpiece, (detailed face), white hair, purple eyes, highest details, luminous eyes, medium breats, black halo, white clothes, backlighting, (midriff:1.4), light rays, (high contrast), (colorful),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "Variation seed": "1584780202",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Seed resize from": "1024x2048",
+                "Denoising strength": "0.3",
+                "Variation seed strength": "1"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:43.801Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 6652,
+                        "name": "bride",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111778,
+                        "name": "wedding",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111882,
+                        "name": "blouse",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111759,
+                        "name": "accessories",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111765,
+                        "name": "bag",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111766,
+                        "name": "handbag",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9ceb9082-a578-414c-9c37-de9cb195a800/width=450/215133",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "U8CZ6EDh01s:x_Io9u-o$e-p9a-o~W9aRixa",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 1775269785,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "(Background), (((masterpiece))), (Extremely detailed CG unity 8k wallpaper, masterpiece, best quality, ultra-detailed), (masterpiece, best quality, intricate details, detailed finger), ((fantasy)), 1girl, cant be this cute, hexagon clothing, navel, ((marvelous illustration)), (detailed splash), best quality, intricate detail, sci-fi painting of a single female wearing a futuristic dress, walking on the moon with earth in the background, high details, moody, cinematic, 8k, final fantasy, photorealistic, realistic, elegant,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:41.708Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e3ba75a-0a00-46b3-7f95-7bb0303ada00/width=450/215172",
+            "nsfw": false,
+            "width": 2048,
+            "height": 4096,
+            "hash": "U7A^F1~qTztm00D*DNni00In%MIU-;jaWYR,",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 1610977887,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "photorealistic, (hyperrealistic:1.2), masterpiece, best quality, 1girl, black hair, angel of death, innocent, brown eyes, diadem, angel wings, black clothes, full body, arms behind back, sky, halo, post-apocalypse,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "30",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:42.705Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111849,
+                        "name": "footwear",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111962,
+                        "name": "high heel",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 8628,
+                        "name": "shoe",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7168,
+                        "name": "angel",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111777,
+                        "name": "lamp",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111768,
+                        "name": "animal",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5181,
+                        "name": "bird",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d73bfc8c-bf61-4cdf-faf8-54d25eccd100/width=450/215171",
+            "nsfw": false,
+            "width": 2048,
+            "height": 4096,
+            "hash": "UDKe1T01--S4?w0L?aV?xBbwIpM{o~WD?HWE",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 3323018910,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy:1.4), (azure blue eyes:1.233),Her eyes shone like dreamy stars,(glowing eyes:1.233),(beautiful and detailed eyes:1.1),(Silver hair:1.14),(messy hair,very long hair,french braid,hair between eyes,sidelocks), (+(bule hair flower:1.14)),(chiffon dress,bule flower pattern in uniform)/=(military uniform:1.24),(detached sleeves,wide sleeves),(fingerless gloves),choker,(miko thighhighs),High heeled boots,(expressionless,closed mouth),(standing), (classical Princess boudoir with dressing table<books> and french window<a epic view outside the window> in a white ancient palaces),(white flowers,bloom),(abysmal sea),(flowing water),(a dull blue world tree:1.14),(ruins),(night:1.2),dreamy,soul,(fluorescence),(flying translucent blue butterflies:1.15), [[delicate fingers and hands:0.55]::0.85],(detail fingers),(yubao:0.5),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:42.587Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 6652,
+                        "name": "bride",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111778,
+                        "name": "wedding",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111806,
+                        "name": "desk",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 1729,
+                        "name": "furniture",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111807,
+                        "name": "table",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111849,
+                        "name": "footwear",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 8628,
+                        "name": "shoe",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111962,
+                        "name": "high heel",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e073009d-193e-4c12-a800-46a1e3142400/width=450/215170",
+            "nsfw": true,
+            "width": 2048,
+            "height": 4096,
+            "hash": "USKeWX_3ctSi?ws:-URQKQR+xDo0%gRiNGbv",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 1339595519,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "(masterpiece, finely detailed beautiful eyes: 1.2), ultra-detailed, illustration, 1girl, goddess of water, detailed background,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Denoising strength": "0.3"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:42.494Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false,
+                        "type": "Moderation"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 2397,
+                        "name": "comics",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111753,
+                        "name": "publication",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 413,
+                        "name": "manga",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/692002ce-784d-4fd7-912d-48bb29f45200/width=450/215421",
+            "nsfw": false,
+            "width": 1024,
+            "height": 2048,
+            "hash": "UAMGk+005300Mx4.D%x[0MMxv~_NpJRks8t3",
+            "meta": {
+                "Size": "512x1024",
+                "seed": 905554720,
+                "Model": "Meina V8 pruned",
+                "steps": 25,
+                "prompt": "1girl, (yandere:1.4), (yandere trance:1.4), crazy, blood on face, backlighting, looking at viewer, white hair, purple eyes, blush, smile, yandere simulator,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "6b312d67f0",
+                        "name": "Meina V8 pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6b312d67f0",
+                "Variation seed": "3500883439",
+                "negativePrompt": "(worst quality, low quality:1.4), monochrome, zombie,",
+                "Seed resize from": "1024x2048",
+                "Variation seed strength": "1"
+            },
+            "userId": 141871,
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "scannedAt": "2023-03-23T17:59:43.905Z",
+            "tags": [
+                {
+                    "tag": {
+                        "id": 4,
+                        "name": "anime",
+                        "isCategory": true,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                },
+                {
+                    "tag": {
+                        "id": 111754,
+                        "name": "head",
+                        "isCategory": false,
+                        "type": "Label"
+                    },
+                    "automated": true,
+                    "needsReview": false
+                }
+            ]
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/20322"
+}
