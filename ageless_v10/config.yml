@@ -1,0 +1,60 @@
+grid:
+  title: Stable Diffusion Validation Framework
+  author: Kairin @ https://github.com/kai-rin
+  description: "<div class=\"card border-primary mb-3\" style=\"max-width: 50rem;\">\n    <div class=\"card-header\">About The Stable Diffusion Validation Framework</div>\n    <div class=\"card-body\">\n        <p class=\"card-text\" style=\"text-align: left;\">\n            A framework for structuring the validation of image-based artificial intelligence models, in an attempt to mechanize the process and make it easy to reproduce.\n            Click on the image to see the generation data. You can make your own this grid unsing YML file distributed here <a href=\"https://kai-rin.github.io/stable-diffusion-checkpoint-testing-framework/\"></a> .\n            <br><br>This grid page was generated using <a href=\"https://github.com/mcmonkeyprojects/sd-infinity-grid-generator-script\">Infinite-Axis Grid Generation For SD</a>, you can use it to make your own.\n        </p>\n    </div>\n </div>\n <h4>\n"
+  params:
+    steps: 20
+    Sampler: DPM++ SDE Karras
+    CFG Scale: 7
+    Width: 512
+    Height: 768
+    Clip Skip: 1
+    Out Width: 256
+    Out Height: 384
+  format: jpg
+  show descriptions: true
+  autoscale: false
+  sticky: false
+axes:
+  prompt:
+    title: Positive Prompt
+    values:
+      baseball girl:
+        title: baseball girl
+        params:
+          prompt: 1girl,aqua eyes,baseball cap,blonde hair,closed mouth,earrings,green background,hat,hoop earrings,jewelry,looking at viewer,shirt,short hair,simple background,solo,upper body,yellow shirt
+      guitar girl:
+        title: guitar girl
+        params:
+          prompt: 1girl,black skirt,blue eyes,electric guitar,guitar,headphones,holding,holding plectrum,instrument,long hair,music,one side up,pink hair,playing guitar,pleated skirt,black shirt,indoors
+      car girl:
+        title: title girl in a car
+        params:
+          prompt: 1girl sitting in a car,1girl,jewelry,smile,looking at viewer,car interior,solo,pink hair,purple eyes,steering wheel,blush,long hair,white shirt,off shoulder,black jacket,hair between eyes,long sleeves,wrist scrunchie
+  promptreplace:
+    title: Quality tag
+    values:
+      none: PromptReplace= 1girl = 1girl
+      masterpiece,best quality: PromptReplace= 1girl = masterpiece,best quality,1girl
+      absurdres,highres,ultra detailed: PromptReplace= 1girl = absurdres,highres,ultra detailed,1girl
+  negative_prompt:
+    title: Negative Prompt
+    description: Negative prompt includes [nsfw,explicit]. If you do not need them, remove them from the YML file.
+    values:
+      easynegative:
+        title: EasyNegative
+        params:
+          negative prompt: EasyNegative,nsfw,explicit
+      easynegative2:
+        title: EasyNegativeV2
+        params:
+          negative prompt: EasyNegativeV2,nsfw,explicit
+      worst low quality:
+        title: worst-low quality
+        params:
+          negative prompt: (worst quality:2,low quality:2),nsfw,explicit
+      easynegative worst low quality:
+        title: easynegative worst low quality
+        params:
+          negative prompt: EasyNegative,(worst quality:2,low quality:2),nsfw,explicit
+  seed: 1234, 5678, 9012
